@@ -44,10 +44,8 @@
 	
 	\section{Tasks}
 	\subsection{Task 1}
-	
 	Составим расширенную матрицу коэффициентов и выполним определенные действия для решения системы.
-	
-	\begin{multline*}
+	\begin{multline}
 		\begin{bmatrix}
 		1 & 0 & 0 & 0 & 1 & 0 & 1 & 1 & 0 \\
 		1 & 0 & 1 & 0 & 0 & 0 & 1 & 0 & 1 \\
@@ -165,7 +163,7 @@
 		(2) \oplus= (7)\\
 		(3) \oplus= (7)\\
 		\end{align}	
-	\end{multline*}
+	\end{multline}
 	
 	В итоге получаем матрицу:
 	\begin{bmatrix}
@@ -178,7 +176,6 @@
 	0 & 0 & 0 & 0 & 0 & 0 & 1 & 0 & 0 \\
 	0 & 0 & 0 & 0 & 0 & 0 & 0 & 1 & 1 \\
 	\end{bmatrix}
-
 
 	В описаниях преобразований строки пронумерованы сверху вниз $(0),
 	(1), …, (6), (7)$, а выражение $(i) \oplus= (j)$ обозначает  
@@ -208,14 +205,16 @@
 	
 	\begin{tabular}{|c|c|c|c|c|c|}
 		\hline 
-		F & 00 & 01 & 10 & 11 & AB \\ 
+		& 0 & 0 & 1 & 1 & A \\ 
 		\hline 
-		0 & 1 & 0 & 0 & 0 & \\ 
+		& 0 & 1 & 1 & 0 & B \\ 
 		\hline 
-		1 & 1 & 0 & 0 & 1 & \\ 
+		0 & 1 & 0 & 0 & 0 &  \\ 
+		\hline 
+		1 & 1 & 0 & 1 & 0 &  \\ 
 		\hline 
 		C &  &  &  &  &  \\ 
-		\hline
+		\hline 
 	\end{tabular} 
 
 	\subsection{Task 3}
@@ -302,7 +301,7 @@
 	
 	\subsection{Минимальная дизъюнктивная нормальная форма}
 	
-	Воспользовавшись методом Куайна, получим:
+	Воспользовавшись картой Карно, получим минимальную дизъюнктивную форму:
 	\begin{equation}
 		F(A, B, C) = \overline{A} \cdot \overline{B} + A \cdot B \cdot C 
 	\end{equation}
@@ -347,7 +346,53 @@
 			C & 0 & 1 & 0 & 1 \\
 			F & 0 & 0 & 0 & 1
 		\end{smallmatrix}
-		\right) = \
+		\right) = (A + \overline{B}) \cdot (\overline{A} + B \cdot C)
 	\end{equation}
 	
+	\begin{equation}
+		\begin{smallmatrix}
+			A & 0 & 0 & 0 & 0 & 1 & 1 & 1 & 1 \\
+			B & 0 & 0 & 1 & 1 & 0 & 0 & 1 & 1 \\
+			C & 0 & 1 & 0 & 1 & 0 & 1 & 0 & 1 \\
+			F & 1 & 1 & 0 & 0 & 0 & 0 & 0 & 1
+		\end{smallmatrix}
+		= \left(B + 
+		\begin{smallmatrix}
+			A & 0 & 0 & 1 & 1 \\
+			C & 0 & 1 & 0 & 1 \\
+			F & 1 & 1 & 0 & 0
+		\end{smallmatrix}
+		\right) \cdot \left(\overline{B} + 
+		\begin{smallmatrix}
+			A & 0 & 0 & 1 & 1 \\
+			C & 0 & 1 & 0 & 1 \\
+			F & 0 & 0 & 0 & 1
+		\end{smallmatrix}  
+		\right) = (B + \overline{A}) \cdot (\overline{B} + A \cdot C)
+	\end{equation}
+	
+	\begin{equation}
+		\begin{smallmatrix}
+			A & 0 & 0 & 0 & 0 & 1 & 1 & 1 & 1 \\
+			B & 0 & 0 & 1 & 1 & 0 & 0 & 1 & 1 \\
+			C & 0 & 1 & 0 & 1 & 0 & 1 & 0 & 1 \\
+			F & 1 & 1 & 0 & 0 & 0 & 0 & 0 & 1
+		\end{smallmatrix}
+		= \left( C + 
+		\begin{smallmatrix}
+			A & 0 & 0 & 1 & 1 \\
+			B & 0 & 1 & 0 & 1 \\
+			F & 1 & 0 & 0 & 0
+		\end{smallmatrix}
+		\right) \cdot \left( \overline{C} +
+		\begin{smallmatrix}
+			A & 0 & 0 & 1 & 1 \\
+			B & 0 & 1 & 0 & 1 \\
+			F & 1 & 0 & 0 & 1 
+		\end{smallmatrix}
+		\right) = (C + \overline{A} \cdot \overline{B}) \cdot
+		 (\overline{C} + (A \equiv B)) 
+	\end{equation}
+
+
 \end{document}
