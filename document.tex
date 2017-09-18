@@ -217,4 +217,137 @@
 		C &  &  &  &  &  \\ 
 		\hline
 	\end{tabular} 
+
+	\subsection{Task 3}
+	
+	Выполним дизъюнктивное разложение Шеннона:
+	
+	\begin{equation}
+		\begin{smallmatrix}
+			A & 0 & 0 & 0 & 0 & 1 & 1 & 1 & 1 \\
+			B & 0 & 0 & 1 & 1 & 0 & 0 & 1 & 1 \\
+			C & 0 & 1 & 0 & 1 & 0 & 1 & 0 & 1 \\
+			F & 1 & 1 & 0 & 0 & 0 & 0 & 0 & 1
+		\end{smallmatrix}
+		= 
+		\overline{A} \cdot 
+		\begin{smallmatrix}
+			B & 0 & 0 & 1 & 1 \\
+			C & 0 & 1 & 0 & 1 \\
+			F & 1 & 1 & 0 & 0
+		\end{smallmatrix} 
+		+ 
+		A \cdot
+		\begin{smallmatrix}
+			B & 0 & 0 & 1 & 1 \\
+			C & 0 & 1 & 0 & 1 \\
+			F & 0 & 0 & 0 & 1
+		\end{smallmatrix}
+		= \overline{A} \cdot \overline{B} + A \cdot B \cdot C
+	\end{equation}
+	
+	\begin{equation}
+		\begin{smallmatrix}
+			A & 0 & 0 & 0 & 0 & 1 & 1 & 1 & 1 \\
+			B & 0 & 0 & 1 & 1 & 0 & 0 & 1 & 1 \\
+			C & 0 & 1 & 0 & 1 & 0 & 1 & 0 & 1 \\
+			F & 1 & 1 & 0 & 0 & 0 & 0 & 0 & 1
+		\end{smallmatrix}
+		= \overline{B} \cdot
+		\begin{smallmatrix}
+			A & 0 & 0 & 1 & 1 \\
+			C & 0 & 1 & 0 & 1 \\
+			F & 1 & 1 & 0 & 0 
+		\end{smallmatrix}
+		+ B \cdot
+		\begin{smallmatrix}
+			A & 0 & 0 & 1 & 1 \\
+			C & 0 & 1 & 0 & 1 \\
+			F & 0 & 0 & 0 & 1
+		\end{smallmatrix}
+		= \overline{A} \cdot \overline{B} + A \cdot B \cdot C
+	\end{equation}
+
+	\begin{equation}
+		\begin{smallmatrix}
+			A & 0 & 0 & 0 & 0 & 1 & 1 & 1 & 1 \\
+			B & 0 & 0 & 1 & 1 & 0 & 0 & 1 & 1 \\
+			C & 0 & 1 & 0 & 1 & 0 & 1 & 0 & 1 \\
+			F & 1 & 1 & 0 & 0 & 0 & 0 & 0 & 1
+		\end{smallmatrix}
+		= \overline{C} \cdot 
+		\begin{smallmatrix}
+			A & 0 & 0 & 1 & 1 \\
+			B & 0 & 1 & 0 & 1 \\
+			F & 1 & 0 & 0 & 0
+		\end{smallmatrix}
+		+ C \cdot
+		\begin{smallmatrix}
+			A & 0 & 0 & 1 & 1 \\
+			B & 0 & 1 & 0 & 1 \\
+			F & 1 & 0 & 0 & 1
+		\end{smallmatrix}
+		= \oveline{A} \cdot \overline{B} \cdot \overline{C} + C \cdot (A \equiv B) 
+	\end{equation}
+	
+	\subsection{Task 4}
+	
+	Совершенная дизъюнктивная нормальная форма: 
+	
+	\begin{equation}
+		F(A, B, C) = \overline{A} \cdot \overline{B} \cdot \overline{C} +
+		\overline{A} \cdot \overline{B} \cdot C + 
+		A \cdot B \cdot C 
+	\end{equation}
+	
+	\subsection{Минимальная дизъюнктивная нормальная форма}
+	
+	Воспользовавшись методом Куайна, получим:
+	\begin{equation}
+		F(A, B, C) = \overline{A} \cdot \overline{B} + A \cdot B \cdot C 
+	\end{equation}
+
+	\subsection{Новые представления функции}
+	
+	Из дизъюнктивных разложений, используя ортогональность, получим новые представления функции.
+	
+	\begin{equation}
+		F(A, B, C) = \overline{A} \cdot \overline{B} \oplus A \cdot B \cdot C
+	\end{equation}
+	
+	\begin{equation}
+		F(A, B, C) = \oveline{A} \cdot \overline{B} \cdot \overline{C} 
+		\oplus C \cdot (A \equiv B) 
+	\end{equation}
+	
+	\begin{equation}
+		F(A, B, C) = \overline{A} \cdot \overline{B} \cdot \overline{C} \oplus
+		\overline{A} \cdot \overline{B} \cdot C \oplus
+		A \cdot B \cdot C 
+	\end{equation}
+	
+	\subsection{Конъюнктивные разложения Шеннона}
+	
+	\begin{equation}
+		\begin{smallmatrix}
+			A & 0 & 0 & 0 & 0 & 1 & 1 & 1 & 1 \\
+			B & 0 & 0 & 1 & 1 & 0 & 0 & 1 & 1 \\
+			C & 0 & 1 & 0 & 1 & 0 & 1 & 0 & 1 \\
+			F & 1 & 1 & 0 & 0 & 0 & 0 & 0 & 1
+		\end{smallmatrix}
+		= \left(A + 
+		\begin{smallmatrix}
+			B & 0 & 0 & 1 & 1 \\
+			C & 0 & 1 & 0 & 1 \\
+			F & 1 & 1 & 0 & 0
+		\end{smallmatrix}
+		\right) \cdot \left( \overline{A} + 
+		\begin{smallmatrix}
+			B & 0 & 0 & 1 & 1 \\
+			C & 0 & 1 & 0 & 1 \\
+			F & 0 & 0 & 0 & 1
+		\end{smallmatrix}
+		\right) = \
+	\end{equation}
+	
 \end{document}
