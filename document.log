@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2017.9.11)  30 SEP 2017 11:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2017.9.11)  30 SEP 2017 23:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1151,7 +1151,274 @@ l.187
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
-[2] [3] (./document.aux) ) 
+[2]
+! Missing $ inserted.
+<inserted text> 
+                $
+l.538 		F_
+          {A}^{\prime} & 1 & 1 & 0 & 1 & 1 & 1 & 0 & 1 \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+<template> \unskip \hfil }
+                          \hskip \tabcolsep \hskip -.5\arrayrulewidth \vrule...
+l.538 		F_{A}^{\prime} &
+                         1 & 1 & 0 & 1 & 1 & 1 & 0 & 1 \\
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.538 		F_{A}^{\prime} &
+                         1 & 1 & 0 & 1 & 1 & 1 & 0 & 1 \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.538 		F_{A}^{\prime} &
+                         1 & 1 & 0 & 1 & 1 & 1 & 0 & 1 \\
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.540 		F_
+          {B}^{\prime} & 1 & 1 & 1 & 1 & 0 & 1 & 0 & 1 \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+<template> \unskip \hfil }
+                          \hskip \tabcolsep \hskip -.5\arrayrulewidth \vrule...
+l.540 		F_{B}^{\prime} &
+                         1 & 1 & 1 & 1 & 0 & 1 & 0 & 1 \\
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.540 		F_{B}^{\prime} &
+                         1 & 1 & 1 & 1 & 0 & 1 & 0 & 1 \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.540 		F_{B}^{\prime} &
+                         1 & 1 & 1 & 1 & 0 & 1 & 0 & 1 \\
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.542 		F_
+          {C}^{\prime} & 0 & 0 & 0 & 0 & 0 & 0 & 1 & 1 \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+<template> \unskip \hfil }
+                          \hskip \tabcolsep \hskip -.5\arrayrulewidth \vrule...
+l.542 		F_{C}^{\prime} &
+                         0 & 0 & 0 & 0 & 0 & 0 & 1 & 1 \\
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.542 		F_{C}^{\prime} &
+                         0 & 0 & 0 & 0 & 0 & 0 & 1 & 1 \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.542 		F_{C}^{\prime} &
+                         0 & 0 & 0 & 0 & 0 & 0 & 1 & 1 \\
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.544 		F_
+          {AB}^{\prime\prime} & 1 & 0 & 1 & 0 & 1 & 0 & 1 & 0 \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+<template> \unskip \hfil }
+                          \hskip \tabcolsep \hskip -.5\arrayrulewidth \vrule...
+l.544 		F_{AB}^{\prime\prime} &
+                                1 & 0 & 1 & 0 & 1 & 0 & 1 & 0 \\
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.544 		F_{AB}^{\prime\prime} &
+                                1 & 0 & 1 & 0 & 1 & 0 & 1 & 0 \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.544 		F_{AB}^{\prime\prime} &
+                                1 & 0 & 1 & 0 & 1 & 0 & 1 & 0 \\
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.546 		F_
+          {AC}^{\prime\prime} & 0 & 0 & 1 & 1 & 0 & 0 & 1 & 1 \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+<template> \unskip \hfil }
+                          \hskip \tabcolsep \hskip -.5\arrayrulewidth \vrule...
+l.546 		F_{AC}^{\prime\prime} &
+                                0 & 0 & 1 & 1 & 0 & 0 & 1 & 1 \\
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.546 		F_{AC}^{\prime\prime} &
+                                0 & 0 & 1 & 1 & 0 & 0 & 1 & 1 \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.546 		F_{AC}^{\prime\prime} &
+                                0 & 0 & 1 & 1 & 0 & 0 & 1 & 1 \\
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.548 		F_
+          {BC}^{\prime\prime} & 0 & 0 & 0 & 0 & 1 & 1 & 1 & 1 \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+<template> \unskip \hfil }
+                          \hskip \tabcolsep \hskip -.5\arrayrulewidth \vrule...
+l.548 		F_{BC}^{\prime\prime} &
+                                0 & 0 & 0 & 0 & 1 & 1 & 1 & 1 \\
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.548 		F_{BC}^{\prime\prime} &
+                                0 & 0 & 0 & 0 & 1 & 1 & 1 & 1 \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.548 		F_{BC}^{\prime\prime} &
+                                0 & 0 & 0 & 0 & 1 & 1 & 1 & 1 \\
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.550 		F_
+          {ABC}^{\prime\prime\prime} & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+<template> \unskip \hfil }
+                          \hskip \tabcolsep \hskip -.5\arrayrulewidth \vrule...
+l.550 		F_{ABC}^{\prime\prime\prime} &
+                                       1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 \\
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.550 		F_{ABC}^{\prime\prime\prime} &
+                                       1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.550 		F_{ABC}^{\prime\prime\prime} &
+                                       1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 \\
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+[3] [4] (./document.aux) ) 
 Here is how much of TeX's memory you used:
  5251 strings out of 492990
  68532 string characters out of 6136334
@@ -1173,10 +1440,10 @@ uper/sfbx1200.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfbx1
 :/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb><c:/texlive/
 2017/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><c:/texlive/2017/texmf
 -dist/fonts/type1/public/cm-super/sfrm1728.pfb>
-Output written on document.pdf (3 pages, 154051 bytes).
+Output written on document.pdf (4 pages, 158415 bytes).
 PDF statistics:
- 72 PDF objects out of 1000 (max. 8388607)
- 48 compressed objects within 1 object stream
+ 75 PDF objects out of 1000 (max. 8388607)
+ 50 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  21 words of extra memory for PDF output out of 10000 (max. 10000000)
 

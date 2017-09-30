@@ -521,4 +521,60 @@
 		(A \equiv B) \oplus \overline{C} \cdot (A \cdot B) 
 	\end{equation}
 
+	\subsection{kek}
+	
+	\subsection{Все производные с помощью таблицы истинности}
+	
+	\begin{tabular}{|c|c|c|c|c|c|c|c|c|}
+		\hline 
+		A & 0 & 0 & 0 & 0 & 1 & 1 & 1 & 1 \\ 
+		\hline 
+		B & 0 & 0 & 1 & 1 & 0 & 0 & 1 & 1 \\ 
+		\hline 
+		C & 0 & 1 & 0 & 1 & 0 & 1 & 0 & 1 \\ 
+		\hline 
+		F & 1 & 1 & 0 & 0 & 0 & 0 & 0 & 1 \\ 
+		\hline 
+		F_{A}^{\prime} & 1 & 1 & 0 & 1 & 1 & 1 & 0 & 1 \\ 
+		\hline 
+		F_{B}^{\prime} & 1 & 1 & 1 & 1 & 0 & 1 & 0 & 1 \\ 
+		\hline 
+		F_{C}^{\prime} & 0 & 0 & 0 & 0 & 0 & 0 & 1 & 1 \\ 
+		\hline 
+		F_{AB}^{\prime\prime} & 1 & 0 & 1 & 0 & 1 & 0 & 1 & 0 \\ 
+		\hline 
+		F_{AC}^{\prime\prime} & 0 & 0 & 1 & 1 & 0 & 0 & 1 & 1 \\ 
+		\hline 
+		F_{BC}^{\prime\prime} & 0 & 0 & 0 & 0 & 1 & 1 & 1 & 1 \\ 
+		\hline 
+		F_{ABC}^{\prime\prime\prime} & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 \\ 
+		\hline 
+	\end{tabular} 
+
+	\subsection{Аналитический вид производных}
+	
+	Из задания 11:
+	\begin{equation}
+		F_{A}^{\prime} = B \implies C
+	\end{equation}
+	\begin{equation}
+		F_{B}^{\prime} = A \implies C
+	\end{equation}
+	\begin{equation}
+		F_{C}^{\prime} = A \cdot B
+	\end{equation}
+	Воспользовавшись таблицей истинности из предыдущего задания, найдём аналитический вид смешанных производных.
+	
+	\begin{equation}
+		F_{AB}^{\prime\prime} = \overline{C}
+	\end{equation}
+	\begin{equation}
+		F_{AC}^{\prime\prime} = B
+	\end{equation}
+	\begin{equation}
+		F_{BC}^{\prime\prime} = A
+	\end{equation}
+	\begin{equation}
+		F_{ABC}^{\prime\prime\prime} = 1
+	\end{equation}
 \end{document}
