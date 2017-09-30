@@ -286,7 +286,7 @@
 			B & 0 & 1 & 0 & 1 \\
 			F & 1 & 0 & 0 & 1
 		\end{smallmatrix}
-		= \oveline{A} \cdot \overline{B} \cdot \overline{C} + C \cdot (A \equiv B) 
+		= \overline{A} \cdot \overline{B} \cdot \overline{C} + C \cdot (A \equiv B) 
 	\end{equation}
 	
 	\subsection{Task 4}
@@ -315,7 +315,7 @@
 	\end{equation}
 	
 	\begin{equation}
-		F(A, B, C) = \oveline{A} \cdot \overline{B} \cdot \overline{C} 
+		F(A, B, C) = \overline{A} \cdot \overline{B} \cdot \overline{C} 
 		\oplus C \cdot (A \equiv B) 
 	\end{equation}
 	
@@ -394,5 +394,131 @@
 		 (\overline{C} + (A \equiv B)) 
 	\end{equation}
 
+	\subsection{Соверешенная конъюнктивная нормальная форма}
+	
+	Воспользовавшись двойственностью, получим СКНФ из СДНФ.
+	
+	\begin{equation}
+		F(A, B, C) = (A + B + \overline{C}) \cdot 
+		(A + \overline{B} + C) \cdot (A + \overline{B} + \overline{C}) \cdot
+		(\overline{A} + B + C) \cdot (\overline{A} + B + \overline{C})
+	\end{equation}
+	
+	\subsection{Минимальная конъюнктивная нормальная форма}
+	Чего-то там
+	
+	\subsection{КеК}
+	
+	\subsection{Производные функции}
+	
+	\begin{equation}
+		F^{\prime}_{A} = 
+		\left(
+		\begin{smallmatrix}
+			A & 0 & 0 & 0 & 0 & 1 & 1 & 1 & 1 \\
+			B & 0 & 0 & 1 & 1 & 0 & 0 & 1 & 1 \\
+			C & 0 & 1 & 0 & 1 & 0 & 1 & 0 & 1 \\
+			F & 1 & 1 & 0 & 0 & 0 & 0 & 0 & 1
+		\end{smallmatrix}
+		\right)^{\prime}_{A} = 
+		\left(
+		\begin{smallmatrix}
+			B & 0 & 0 & 1 & 1 \\
+			C & 0 & 1 & 0 & 1 \\
+			F & 1 & 1 & 0 & 0
+		\end{smallmatrix} 
+		\right) \oplus \left(
+		\begin{smallmatrix}
+			B & 0 & 0 & 1 & 1 \\
+			C & 0 & 1 & 0 & 1 \\
+			F & 0 & 0 & 0 & 1
+		\end{smallmatrix}
+		\right)
+		= B \implies C
+	\end{equation}
+	
+	\begin{equation}
+		F^{\prime}_{B} = 
+		\left(
+		\begin{smallmatrix}
+			A & 0 & 0 & 0 & 0 & 1 & 1 & 1 & 1 \\
+			B & 0 & 0 & 1 & 1 & 0 & 0 & 1 & 1 \\
+			C & 0 & 1 & 0 & 1 & 0 & 1 & 0 & 1 \\
+			F & 1 & 1 & 0 & 0 & 0 & 0 & 0 & 1
+		\end{smallmatrix}
+		\right) ^ {\prime}_{B} = 
+		\left(
+		\begin{smallmatrix}
+			A & 0 & 0 & 1 & 1 \\
+			C & 0 & 1 & 0 & 1 \\
+			F & 1 & 1 & 0 & 0
+		\end{smallmatrix}
+		\right) \oplus 
+		\left( 
+		\begin{smallmatrix}
+			A & 0 & 0 & 1 & 1 \\
+			C & 0 & 1 & 0 & 1 \\
+			F & 0 & 0 & 0 & 1
+		\end{smallmatrix}  
+		\right) 
+		= A \implies C
+	\end{equation}
+
+	\begin{equation}
+		F^{\prime}_{C} = 
+		\left(
+		\begin{smallmatrix}
+			A & 0 & 0 & 0 & 0 & 1 & 1 & 1 & 1 \\
+			B & 0 & 0 & 1 & 1 & 0 & 0 & 1 & 1 \\
+			C & 0 & 1 & 0 & 1 & 0 & 1 & 0 & 1 \\
+			F & 1 & 1 & 0 & 0 & 0 & 0 & 0 & 1
+		\end{smallmatrix}
+		\right)^{\prime}_{C} =
+		\left(
+		\begin{smallmatrix}
+			A & 0 & 0 & 1 & 1 \\
+			B & 0 & 1 & 0 & 1 \\
+			F & 1 & 0 & 0 & 0
+		\end{smallmatrix}
+		\right) \oplus
+		\left(
+		\begin{smallmatrix}
+			A & 0 & 0 & 1 & 1 \\
+			B & 0 & 1 & 0 & 1 \\
+			F & 1 & 0 & 0 & 1 
+		\end{smallmatrix}
+		\right)
+		= A \cdot B
+	\end{equation}
+
+	
+	\subsection{Разложения Рида}
+	Воспользовавшись формулами $F(x) = F(0) \oplus x \cdot F^{\prime}$ 
+	и $F(x) = F(1) \oplus \overline{x} \cdot F^{\prime}$, получим следующие
+	разложения:
+	\begin{equation}
+		F(A, B, C) = F(0, B, C) \oplus A \cdot F_{A}^{\prime}(A, B, C) =
+		\overline{B} \oplus A \cdot (B \implies C) 
+	\end{equation}
+	\begin{equation}
+		F(A, B, C) = F(1, B, C) \oplus \overline{A} \cdot F_{A}^{\prime}(A, B, C) =
+		B \cdot C \oplus \overline{A} \cdot (B \implies C)
+	\end{equation}
+	\begin{equation}
+		F(A, B, C) = F(A, 0, C) \oplus B \cdot F_{B}^{\prime}(A, B, C) =
+		\overline{A} \oplus B \cdot (A \implies C)
+	\end{equation}
+	\begin{equation}
+		F(A, B, C) = F(A, 1, C) \oplus \overline{B} \cdot F_{B}^{\prime}(A, B, C) =
+		A \cdot C \oplus \overline{B} \cdot (A \implies C)
+	\end{equation}
+	\begin{equation}
+		F(A, B, C) = F(A, B, 0) \oplus C \cdot F_{C}^{\prime}(A, B, C) =
+		\overline{A} \cdot \overline{B} \oplus C \cdot (A \cdot B)
+	\end{equation}
+	\begin{equation}
+		F(A, B, C) = F(A, B, 1) \oplus \overline{C} \cdot F_{C}^{\prime}(A, B, C) =
+		(A \equiv B) \oplus \overline{C} \cdot (A \cdot B) 
+	\end{equation}
 
 \end{document}
