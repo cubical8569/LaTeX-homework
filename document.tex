@@ -18,6 +18,7 @@
 
 %%% Дополнительная работа с математикой
 \usepackage{amsmath,amsfonts,amssymb,amsthm,mathtools} % AMS
+\usepackage{centernot}
 \usepackage{icomma} % "Умная" запятая: $0,2$ --- число, $0, 2$ --- перечисление
 
 %% Номера формул
@@ -42,8 +43,8 @@
 \begin{document}
 	\maketitle
 	
-	\section{Tasks}
-	\subsection{Task 1}
+	\section{Решение системы уравнений и составление таблицы истинности функции}
+	
 	Составим расширенную матрицу коэффициентов и выполним определенные действия для решения системы.
 	\begin{multline}
 		\begin{bmatrix}
@@ -165,7 +166,7 @@
 		\end{align}	
 	\end{multline}
 	
-	В итоге получаем матрицу:
+	\noindent В итоге получаем матрицу:
 	\begin{bmatrix}
 	1 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 1 \\
 	0 & 0 & 1 & 0 & 0 & 0 & 0 & 0 & 0 \\
@@ -175,17 +176,15 @@
 	0 & 0 & 0 & 0 & 0 & 1 & 0 & 0 & 0 \\
 	0 & 0 & 0 & 0 & 0 & 0 & 1 & 0 & 0 \\
 	0 & 0 & 0 & 0 & 0 & 0 & 0 & 1 & 1 \\
-	\end{bmatrix}
-
-	В описаниях преобразований строки пронумерованы сверху вниз $(0),
+	\end{bmatrix} \\
+	
+	\noindent В описаниях преобразований строки пронумерованы сверху вниз $(0),
 	(1), …, (6), (7)$, а выражение $(i) \oplus= (j)$ обозначает  
-	«заменить все числа в строке (i) на их сумму по модулю 2 с соответствующими числами строки (j)».
-	
-	Получаем решение: X_{7} = 1, X_{6} = 1, X_{5} = 0, X_{4} = 0, X_{3} = 0, X_{2} = 0, X_{1} = 0, X_{0} = 1.
+	«заменить все числа в строке (i) на их сумму по модулю 2 с соответствующими числами строки (j)». \\
 
-	Десятичный номер функции равен 2^7 + 2^6 + 2^0 = 193. 
+	\noindent Получаем решение:$ X_{7} = 1, X_{6} = 1, X_{5} = 0, X_{4} = 0, X_{3} = 0, X_{2} = 0, X_{1} = 0, X_{0} = 1$. Десятичный номер функции равен $2^7 + 2^6 + 2^0 = 193$. \\ 
 	
-	Таблица истинности для данной функции:
+	\noindent Таблица истинности для данной функции:\\
 	
 	\begin{tabular}{|c|c|c|c|c|c|c|c|c|}
 		\hline 
@@ -199,9 +198,9 @@
 		\hline 
 	\end{tabular} 
 	
-	\subsection{Task 2}
+	\section{Карта Карно}
 	
-	Представим таблицы истинности функции F в виде карты Карно:
+	Представим таблицу истинности функции F в виде карты Карно: \\
 	
 	\begin{tabular}{|c|c|c|c|c|c|}
 		\hline 
@@ -217,79 +216,95 @@
 		\hline 
 	\end{tabular} 
 
-	\subsection{Task 3}
-	
-	Выполним дизъюнктивное разложение Шеннона:
+	\section{Дизъюнктивные разложения Шеннона}
 	
 	\begin{equation}
+		\left(
 		\begin{smallmatrix}
 			A & 0 & 0 & 0 & 0 & 1 & 1 & 1 & 1 \\
 			B & 0 & 0 & 1 & 1 & 0 & 0 & 1 & 1 \\
 			C & 0 & 1 & 0 & 1 & 0 & 1 & 0 & 1 \\
 			F & 1 & 1 & 0 & 0 & 0 & 0 & 0 & 1
 		\end{smallmatrix}
+		\right)
 		= 
 		\overline{A} \cdot 
+		\left(
 		\begin{smallmatrix}
 			B & 0 & 0 & 1 & 1 \\
 			C & 0 & 1 & 0 & 1 \\
 			F & 1 & 1 & 0 & 0
 		\end{smallmatrix} 
+		\right)
 		+ 
 		A \cdot
+		\left(
 		\begin{smallmatrix}
 			B & 0 & 0 & 1 & 1 \\
 			C & 0 & 1 & 0 & 1 \\
 			F & 0 & 0 & 0 & 1
 		\end{smallmatrix}
+		\right)
 		= \overline{A} \cdot \overline{B} + A \cdot B \cdot C
 	\end{equation}
 	
 	\begin{equation}
+		\left(
 		\begin{smallmatrix}
 			A & 0 & 0 & 0 & 0 & 1 & 1 & 1 & 1 \\
 			B & 0 & 0 & 1 & 1 & 0 & 0 & 1 & 1 \\
 			C & 0 & 1 & 0 & 1 & 0 & 1 & 0 & 1 \\
 			F & 1 & 1 & 0 & 0 & 0 & 0 & 0 & 1
 		\end{smallmatrix}
+		\right)
 		= \overline{B} \cdot
+		\left(
 		\begin{smallmatrix}
 			A & 0 & 0 & 1 & 1 \\
 			C & 0 & 1 & 0 & 1 \\
 			F & 1 & 1 & 0 & 0 
 		\end{smallmatrix}
+		\right)
 		+ B \cdot
+		\left(
 		\begin{smallmatrix}
 			A & 0 & 0 & 1 & 1 \\
 			C & 0 & 1 & 0 & 1 \\
 			F & 0 & 0 & 0 & 1
 		\end{smallmatrix}
+		\right)
 		= \overline{A} \cdot \overline{B} + A \cdot B \cdot C
 	\end{equation}
 
 	\begin{equation}
+		\left(
 		\begin{smallmatrix}
 			A & 0 & 0 & 0 & 0 & 1 & 1 & 1 & 1 \\
 			B & 0 & 0 & 1 & 1 & 0 & 0 & 1 & 1 \\
 			C & 0 & 1 & 0 & 1 & 0 & 1 & 0 & 1 \\
 			F & 1 & 1 & 0 & 0 & 0 & 0 & 0 & 1
 		\end{smallmatrix}
+		\right)
 		= \overline{C} \cdot 
+		\left(
 		\begin{smallmatrix}
 			A & 0 & 0 & 1 & 1 \\
 			B & 0 & 1 & 0 & 1 \\
 			F & 1 & 0 & 0 & 0
 		\end{smallmatrix}
+		\right)
 		+ C \cdot
+		\left(
 		\begin{smallmatrix}
 			A & 0 & 0 & 1 & 1 \\
 			B & 0 & 1 & 0 & 1 \\
 			F & 1 & 0 & 0 & 1
 		\end{smallmatrix}
+		\right)
 		= \overline{A} \cdot \overline{B} \cdot \overline{C} + C \cdot (A \equiv B) 
 	\end{equation}
 	
-	\subsection{Task 4}
+	\section{Совершенная дизъюнктивная нормальная форма}
 	
 	Совершенная дизъюнктивная нормальная форма: 
 	
@@ -299,102 +314,118 @@
 		A \cdot B \cdot C 
 	\end{equation}
 	
-	\subsection{Минимальная дизъюнктивная нормальная форма}
+	\section{Минимальные дизъюнктивные нормальные формы}
 	
-	Воспользовавшись картой Карно, получим минимальную дизъюнктивную форму:
+	Воспользовавшись картой Карно, получим минимальную дизъюнктивную форму (она единственна, потому что единицы можно сгруппировать лишь одним способом):
 	\begin{equation}
 		F(A, B, C) = \overline{A} \cdot \overline{B} + A \cdot B \cdot C 
 	\end{equation}
 
-	\subsection{Новые представления функции}
+	\section{Новые представления функции}
 	
 	Из дизъюнктивных разложений, используя ортогональность, получим новые представления функции.
 	
 	\begin{equation}
 		F(A, B, C) = \overline{A} \cdot \overline{B} \oplus A \cdot B \cdot C
 	\end{equation}
-	
 	\begin{equation}
 		F(A, B, C) = \overline{A} \cdot \overline{B} \cdot \overline{C} 
 		\oplus C \cdot (A \equiv B) 
 	\end{equation}
-	
 	\begin{equation}
 		F(A, B, C) = \overline{A} \cdot \overline{B} \cdot \overline{C} \oplus
 		\overline{A} \cdot \overline{B} \cdot C \oplus
 		A \cdot B \cdot C 
 	\end{equation}
 	
-	\subsection{Конъюнктивные разложения Шеннона}
+	\section{Конъюнктивные разложения Шеннона}
 	
 	\begin{equation}
+		\left(
 		\begin{smallmatrix}
 			A & 0 & 0 & 0 & 0 & 1 & 1 & 1 & 1 \\
 			B & 0 & 0 & 1 & 1 & 0 & 0 & 1 & 1 \\
 			C & 0 & 1 & 0 & 1 & 0 & 1 & 0 & 1 \\
 			F & 1 & 1 & 0 & 0 & 0 & 0 & 0 & 1
 		\end{smallmatrix}
+		\right)
 		= \left(A + 
+		\left(
 		\begin{smallmatrix}
 			B & 0 & 0 & 1 & 1 \\
 			C & 0 & 1 & 0 & 1 \\
 			F & 1 & 1 & 0 & 0
 		\end{smallmatrix}
+		\right)
 		\right) \cdot \left( \overline{A} + 
+		\left(
 		\begin{smallmatrix}
 			B & 0 & 0 & 1 & 1 \\
 			C & 0 & 1 & 0 & 1 \\
 			F & 0 & 0 & 0 & 1
 		\end{smallmatrix}
+		\right)
 		\right) = (A + \overline{B}) \cdot (\overline{A} + B \cdot C)
 	\end{equation}
 	
 	\begin{equation}
+		\left(
 		\begin{smallmatrix}
 			A & 0 & 0 & 0 & 0 & 1 & 1 & 1 & 1 \\
 			B & 0 & 0 & 1 & 1 & 0 & 0 & 1 & 1 \\
 			C & 0 & 1 & 0 & 1 & 0 & 1 & 0 & 1 \\
 			F & 1 & 1 & 0 & 0 & 0 & 0 & 0 & 1
 		\end{smallmatrix}
+		\right)
 		= \left(B + 
+		\left(
 		\begin{smallmatrix}
 			A & 0 & 0 & 1 & 1 \\
 			C & 0 & 1 & 0 & 1 \\
 			F & 1 & 1 & 0 & 0
 		\end{smallmatrix}
+		\right)
 		\right) \cdot \left(\overline{B} + 
+		\left(
 		\begin{smallmatrix}
 			A & 0 & 0 & 1 & 1 \\
 			C & 0 & 1 & 0 & 1 \\
 			F & 0 & 0 & 0 & 1
 		\end{smallmatrix}  
+		\right)
 		\right) = (B + \overline{A}) \cdot (\overline{B} + A \cdot C)
 	\end{equation}
 	
 	\begin{equation}
+		\left(
 		\begin{smallmatrix}
 			A & 0 & 0 & 0 & 0 & 1 & 1 & 1 & 1 \\
 			B & 0 & 0 & 1 & 1 & 0 & 0 & 1 & 1 \\
 			C & 0 & 1 & 0 & 1 & 0 & 1 & 0 & 1 \\
 			F & 1 & 1 & 0 & 0 & 0 & 0 & 0 & 1
 		\end{smallmatrix}
+		\right)
 		= \left( C + 
+		\left(
 		\begin{smallmatrix}
 			A & 0 & 0 & 1 & 1 \\
 			B & 0 & 1 & 0 & 1 \\
 			F & 1 & 0 & 0 & 0
 		\end{smallmatrix}
+		\right)
 		\right) \cdot \left( \overline{C} +
+		\left(
 		\begin{smallmatrix}
 			A & 0 & 0 & 1 & 1 \\
 			B & 0 & 1 & 0 & 1 \\
 			F & 1 & 0 & 0 & 1 
 		\end{smallmatrix}
+		\right)
 		\right) = (C + \overline{A} \cdot \overline{B}) \cdot
 		 (\overline{C} + (A \equiv B)) 
 	\end{equation}
 
-	\subsection{Соверешенная конъюнктивная нормальная форма}
+	\section{Соверешенная конъюнктивная нормальная форма}
 	
 	Воспользовавшись двойственностью, получим СКНФ из СДНФ.
 	
@@ -404,12 +435,39 @@
 		(\overline{A} + B + C) \cdot (\overline{A} + B + \overline{C})
 	\end{equation}
 	
-	\subsection{Минимальная конъюнктивная нормальная форма}
-	Чего-то там
+	\section{Минимальные конъюнктивные нормальные формы}
+	По карте Карно мы можем увидеть, что нули можно сгруппировать двумя способами.
+	Соответсвенно, получим две минимальные конъюнктивные нормальные формы.
+	\begin{equation}
+		F(A, B, C) = (A + \overline{B})
+		 \cdot (\overline{B} + C) 
+		 \cdot (\overline{A} + B)
+	\end{equation}
+	\begin{equation}
+		F(A, B, C) = (A + \overline{B})
+		\cdot (\overline{A} + C) 
+		\cdot (\overline{A} + B)
+	\end{equation}
 	
-	\subsection{КеК}
+	\section{Новые представления функции}
+	Из конъюнктивных разложений, используя ортогональность, получим новые представления функции
+	\begin{equation}
+		F(A, B, C) = (A + \overline{B}) \equiv (\overline{A} + B \cdot C)
+	\end{equation}
+	\begin{equation}
+		F(A, B, C) = (B + \overline{A}) \equiv (\overline{B} + A \cdot C)
+	\end{equation}
+	\begin{equation}
+		F(A, B, C) = (C + \overline{A} \cdot \overline{B}) \equiv
+		(\overline{C} + (A \equiv B)) 
+	\end{equation}
+	\begin{equation}
+		F(A, B, C) = (A + B + \overline{C}) \equiv
+		(A + \overline{B} + C) \equiv (A + \overline{B} + \overline{C}) \equiv
+		(\overline{A} + B + C) \equiv (\overline{A} + B + \overline{C})
+	\end{equation}
 	
-	\subsection{Производные функции}
+	\section{Производные функции}
 	
 	\begin{equation}
 		F^{\prime}_{A} = 
@@ -492,10 +550,11 @@
 	\end{equation}
 
 	
-	\subsection{Разложения Рида}
-	Воспользовавшись формулами $F(x) = F(0) \oplus x \cdot F^{\prime}$ 
-	и $F(x) = F(1) \oplus \overline{x} \cdot F^{\prime}$, получим следующие
+	\section{Разложения Рида}
+	Воспользовавшись формулами $F(x) = F(0) \oplus x \cdot F_{x}^{\prime}$ 
+	и $F(x) = F(1) \oplus \overline{x} \cdot F_{x}^{\prime}$, получим следующие
 	разложения:
+	
 	\begin{equation}
 		F(A, B, C) = F(0, B, C) \oplus A \cdot F_{A}^{\prime}(A, B, C) =
 		\overline{B} \oplus A \cdot (B \implies C) 
@@ -521,9 +580,37 @@
 		(A \equiv B) \oplus \overline{C} \cdot (A \cdot B) 
 	\end{equation}
 
-	\subsection{kek}
+	\section{Двойственные разложения Рида}
+		
+	Воспользуемся формулами $F(x) = F(0) \equiv (\overline{x} + \overline{F_{x}^{\prime}})$ и $F(x) = F(1) \equiv (x + \overline{F_{x}^{\prime}})$ получим двойственные разложения Рида.
 	
-	\subsection{Все производные с помощью таблицы истинности}
+	\begin{equation}
+		F(A, B, C) = F(0, B, C) \equiv (\overline{A} + \overline{F_{A}^{\prime}})
+		= \overline{B} \equiv (\overline{A} + (B \centernot\implies C)) 
+	\end{equation}
+	\begin{equation}
+		F(A, B, C) = F(1, B, C) \equiv (A + \overline{F_{A}^{\prime}}) =
+		B \cdot C \equiv (A + (B \centernot\implies C))
+	\end{equation}
+	\begin{equation}
+		F(A, B, C) = F(A, 0, C) \equiv (\overline{B} + \overline{F_{B}^{\prime}})
+		= \overline{A} \equiv (\overline{B} + (A \centernot\implies C))
+	\end{equation}
+	\begin{equation}
+		F(A, B, C) = F(A, 1, C) \equiv (B + \overline{F_{B}^{\prime}}) 
+		= A \cdot C \equiv (B + (A \centernot\implies C))
+	\end{equation}
+	\begin{equation}
+		F(A, B, C) = F(A, B, 0) \equiv (\overline{C} + \overline{F_{C}^{\prime}})
+		= \overline{A} \cdot \overline{B} \equiv (\overline{C} + \overline{A} 
+		+ \overline{B})
+	\end{equation}
+	\begin{equation}
+		F(A, B, C) = F(A, B, 1) \equiv (C + \overline{F_{C}^{\prime}})
+		= (A \equiv B) \equiv (C + \overline{A} + \overline{B})
+	\end{equation}
+		
+	\section{Все производные с помощью таблицы истинности}
 	
 	\begin{tabular}{|c|c|c|c|c|c|c|c|c|}
 		\hline 
@@ -551,7 +638,7 @@
 		\hline 
 	\end{tabular} 
 
-	\subsection{Аналитический вид производных}
+	\section{Аналитический вид производных}
 	
 	Из задания 11:
 	\begin{equation}
@@ -576,5 +663,119 @@
 	\end{equation}
 	\begin{equation}
 		F_{ABC}^{\prime\prime\prime} = 1
+	\end{equation}
+
+	\section{Разложение в ряд Маклорена в базисе $\{1, \oplus, \cdot\}$}
+	Разложим функцию F в ряд Маклорена в базисе $\{1, \oplus, \cdot\}$.
+	Получим полином Жегалкина.
+	
+	\begin{equation}
+		F(A, B, C) = 1 \oplus A \oplus B \oplus A \cdot B 
+		\oplus A \cdot B\cdot C
+	\end{equation}
+	
+	\section{Разложение в ряд Тейлора в базисе $\{1, \oplus, \cdot\}$}
+	Разложим функцию F в ряд Тейлора в каждой точке пространства в базисе
+	$\{1, \oplus, \cdot\}$. При разложении будем использовать сокращенную запись 
+	$\overline{A} = A \oplus 1$, $\overline{B} = B \oplus 1$, 
+	$\overline{C} = C \oplus 1$. 
+	
+	\begin{equation}
+	(0, 0, 0): F(A, B, C) = 1 \oplus A \oplus B \oplus A \cdot B 
+	\oplus A \cdot B\cdot C
+	\end{equation}
+	
+	\begin{equation}
+	(0, 0, 1): F(A, B, C) = 1 \oplus A \oplus B \oplus 
+	A \cdot B \cdot \overline{C}
+	\end{equation}
+	
+	\begin{equation}
+	(0, 1, 0): F(A, B, C) = \overline{B} \oplus A \cdot \overline{B}
+	\oplus A \cdot C \oplus A \cdot \overline{B} \cdot C 
+	\end{equation}
+	
+	\begin{equation}
+	(0, 1, 1): F(A, B, C) = A \oplus \overline{B} \oplus A \cdot \overline{C} \oplus A \cdot \overline{B} \cdot \overline{C}
+	\end{equation}
+	
+	\begin{equation}
+	(1, 0, 0): F(A, B, C) = \overline{A} \oplus \overline{A} \cdot B
+	 \oplus B \cdot C \oplus \overline{A} \cdot B \cdot C
+	\end{equation}
+	
+	\begin{equation}
+	(1, 0, 1): F(A, B, C) = \overline{A} \oplus B \oplus B \cdot \overline{C} 
+	\oplus \overline{A} \cdot B \cdot \overline{C}
+	\end{equation}
+	
+	\begin{equation}
+	(1, 1, 0): F(A, B, C) = С \oplus \overline{A} \cdot \overline{B}
+	 \oplus \overline{A} \cdot C \oplus \overline{B} \cdot C 
+	 \oplus \overline{A} \cdot \overline{B} \cdot C
+	\end{equation}
+	
+	\begin{equation}
+	(1, 1, 1): F(A, B, C) = \overline{A} \oplus \overline{B} \oplus \overline{C} 
+	\oplus \overline{A} \cdot \overline{C} \oplus \overline{B} \cdot \overline{C} \oplus \overline{A} \cdot \overline{B} \cdot \overline{C} 
+	\end{equation}
+	
+	\section{Разложение в ряд Маклорена в базисе $\{0, \equiv, +\}$}
+	Разложим функцию F в ряд Маклорена в базисе $\{0, \equiv, +\}$.
+	
+	\begin{equation}
+	F(A, B, C) = A \equiv B \equiv C \equiv (A + C) 
+	\equiv (B + C) \equiv (A + B + C)
+	\end{equation}
+	
+	
+	\section{Разложение в ряд Тейлора $\{0, \equiv, +\}$}
+	Разложим функцию F в ряд Тейлора в каждой точке пространства в базисе 
+	$\{0, \equiv, +\}$. При разложении будем использовать сокращённую запись: 
+	$\overline{A} = A \equiv 0$, $\overline{B} = B \equiv 0$,
+	$\overline{C} = C \equiv 0$,
+	
+	\begin{equation}
+	(1, 1, 1): F(A, B, C) = A \equiv B \equiv C \equiv (A + C) 
+	\equiv (B + C) \equiv (A + B + C)
+	\end{equation}
+	
+	\begin{equation}
+	(1, 1, 0): F(A, B, C) = 0 \equiv \overline{C} \equiv (A + B) 
+	\equiv (A + \overline{C}) \equiv (B + \overline{C}) 
+	\equiv (A + B + \overline{C})
+	\end{equation}
+	
+	\begin{equation}
+	(1, 0, 1): F(A, B, C) = 0 \equiv A \equiv \overline{B} 
+	\equiv (\overline{B} + C) \equiv (A + \overline{B} + C)
+	\end{equation}
+	
+	\begin{equation}
+	(1, 0, 0): F(A, B, C) = 0 \equiv A \equiv (A + \overline{B}) 
+	\equiv (\overline{B} + \overline{C}) 
+	\equiv (A + \overline{B} + \overline{C})
+	\end{equation}
+	
+	\begin{equation}
+	(0, 1, 1): F(A, B, C) = 0 \equiv \overline{A} \equiv B \equiv 
+	(\overline{A} + C) \equiv (\overline{A} + B + C)
+	\end{equation}
+	
+	\begin{equation}
+	(0, 1, 0): F(A, B, C) = 0 \equiv B \equiv (\overline{A} + B) 
+	\equiv (\overline{A} + \overline{C}) 
+	\equiv (\overline{A} + B + \overline{C})
+	\end{equation}
+	
+	\begin{equation}
+	(0, 0, 1): F(A, B, C) = \overline{A} \equiv \overline{B} 
+	\equiv (\overline{A} + \overline{B} + C)
+	\end{equation}
+	
+	\begin{equation}
+	(0, 0, 0): F(A, B, C) = \overline{A} \equiv \overline{B} 
+	\equiv (\overline{A} + \overline{B}) 
+	\equiv (\overline{A} + \overline{B} + \overline{C})
 	\end{equation}
 \end{document}

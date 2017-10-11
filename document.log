@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2017.9.11)  30 SEP 2017 23:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2017.9.11)  11 OCT 2017 23:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -723,6 +723,9 @@ LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
 \l_MT_above_shortintertext_sep=\dimen128
 \l_MT_below_shortintertext_sep=\dimen129
 )
+(c:/texlive/2017/texmf-dist/tex/latex/oberdiek/centernot.sty
+Package: centernot 2016/05/16 v1.4 Centers the not symbol horizontally (HO)
+)
 (c:/texlive/2017/texmf-dist/tex/latex/was/icomma.sty
 Package: icomma 2002/03/10 v2.0 (WaS)
 )
@@ -737,20 +740,20 @@ Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
 ) (./document.aux)
 \openout1 = `document.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -871,17 +874,17 @@ e
 \Gin@req@height=\dimen132
 \Gin@req@width=\dimen133
 )<<ot1.cmap>><<oml.cmap>><<oms.cmap>><<omx.cmap>>
-LaTeX Font Info:    Try loading font information for U+msa on input line 43.
+LaTeX Font Info:    Try loading font information for U+msa on input line 44.
 
 (c:/texlive/2017/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 43.
+LaTeX Font Info:    Try loading font information for U+msb on input line 44.
 
 (c:/texlive/2017/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+rsfs on input line 43.
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 44.
 
 (c:/texlive/2017/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
@@ -894,7 +897,7 @@ See the amsmath package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.166 	\end{multline}
+l.167 	\end{multline}
                      
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -907,7 +910,7 @@ See the amsmath package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.166 	\end{multline}
+l.167 	\end{multline}
                      
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -920,7 +923,7 @@ See the amsmath package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.166 	\end{multline}
+l.167 	\end{multline}
                      
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -933,7 +936,7 @@ See the amsmath package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.166 	\end{multline}
+l.167 	\end{multline}
                      
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -946,7 +949,7 @@ See the amsmath package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.166 	\end{multline}
+l.167 	\end{multline}
                      
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -959,7 +962,7 @@ See the amsmath package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.166 	\end{multline}
+l.167 	\end{multline}
                      
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -972,7 +975,7 @@ See the amsmath package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.166 	\end{multline}
+l.167 	\end{multline}
                      
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -985,7 +988,7 @@ See the amsmath package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.166 	\end{multline}
+l.167 	\end{multline}
                      
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -998,7 +1001,7 @@ See the amsmath package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.166 	\end{multline}
+l.167 	\end{multline}
                      
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1011,7 +1014,7 @@ See the amsmath package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.166 	\end{multline}
+l.167 	\end{multline}
                      
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1024,7 +1027,7 @@ See the amsmath package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.166 	\end{multline}
+l.167 	\end{multline}
                      
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1037,7 +1040,7 @@ See the amsmath package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.166 	\end{multline}
+l.167 	\end{multline}
                      
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1050,7 +1053,7 @@ See the amsmath package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.166 	\end{multline}
+l.167 	\end{multline}
                      
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1063,7 +1066,7 @@ See the amsmath package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.166 	\end{multline}
+l.167 	\end{multline}
                      
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1076,7 +1079,7 @@ See the amsmath package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.166 	\end{multline}
+l.167 	\end{multline}
                      
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1089,7 +1092,7 @@ See the amsmath package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.166 	\end{multline}
+l.167 	\end{multline}
                      
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1097,7 +1100,7 @@ If that doesn't work, type  X <return>  to quit.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.169 	\begin{bmatrix}
+l.170 	\begin{bmatrix}
                       
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1105,8 +1108,8 @@ you left one out. Proceed, with fingers crossed.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.178 	\end{bmatrix}
-                    
+l.179 	\end{bmatrix}
+                     \\
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
 With luck, this will get me unwedged. But if you
@@ -1114,48 +1117,40 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-LaTeX Warning: Command \textellipsis invalid in math mode on input line 181.
+Underfull \hbox (badness 10000) in paragraph at lines 169--180
+
+ []
+
+
+LaTeX Warning: Command \textellipsis invalid in math mode on input line 182.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 181--184
+
+ []
 
 [1
 
 {c:/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-! Missing $ inserted.
-<inserted text> 
-                $
-l.184 	Получаем решение: X_
-                                          {7} = 1, X_{6} = 1, X_{5} = 0, X_{...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
+Underfull \hbox (badness 10000) in paragraph at lines 185--186
 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.185 
-      
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
+ []
 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.186 ...� номер функции равен 2^
-                                                  7 + 2^6 + 2^0 = 193.
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.187 
-      
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
+Underfull \hbox (badness 10000) in paragraph at lines 187--188
 
-[2]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 203--204
+
+ []
+
+[2] [3]
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.538 		F_
+l.625 		F_
           {A}^{\prime} & 1 & 1 & 0 & 1 & 1 & 1 & 0 & 1 \\
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1163,7 +1158,7 @@ you left one out. Proceed, with fingers crossed.
 ! Extra }, or forgotten $.
 <template> \unskip \hfil }
                           \hskip \tabcolsep \hskip -.5\arrayrulewidth \vrule...
-l.538 		F_{A}^{\prime} &
+l.625 		F_{A}^{\prime} &
                          1 & 1 & 0 & 1 & 1 & 1 & 0 & 1 \\
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1174,7 +1169,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.538 		F_{A}^{\prime} &
+l.625 		F_{A}^{\prime} &
                          1 & 1 & 0 & 1 & 1 & 1 & 0 & 1 \\
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1182,7 +1177,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.538 		F_{A}^{\prime} &
+l.625 		F_{A}^{\prime} &
                          1 & 1 & 0 & 1 & 1 & 1 & 0 & 1 \\
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1193,7 +1188,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.540 		F_
+l.627 		F_
           {B}^{\prime} & 1 & 1 & 1 & 1 & 0 & 1 & 0 & 1 \\
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1201,7 +1196,7 @@ you left one out. Proceed, with fingers crossed.
 ! Extra }, or forgotten $.
 <template> \unskip \hfil }
                           \hskip \tabcolsep \hskip -.5\arrayrulewidth \vrule...
-l.540 		F_{B}^{\prime} &
+l.627 		F_{B}^{\prime} &
                          1 & 1 & 1 & 1 & 0 & 1 & 0 & 1 \\
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1212,7 +1207,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.540 		F_{B}^{\prime} &
+l.627 		F_{B}^{\prime} &
                          1 & 1 & 1 & 1 & 0 & 1 & 0 & 1 \\
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1220,7 +1215,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.540 		F_{B}^{\prime} &
+l.627 		F_{B}^{\prime} &
                          1 & 1 & 1 & 1 & 0 & 1 & 0 & 1 \\
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1231,7 +1226,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.542 		F_
+l.629 		F_
           {C}^{\prime} & 0 & 0 & 0 & 0 & 0 & 0 & 1 & 1 \\
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1239,7 +1234,7 @@ you left one out. Proceed, with fingers crossed.
 ! Extra }, or forgotten $.
 <template> \unskip \hfil }
                           \hskip \tabcolsep \hskip -.5\arrayrulewidth \vrule...
-l.542 		F_{C}^{\prime} &
+l.629 		F_{C}^{\prime} &
                          0 & 0 & 0 & 0 & 0 & 0 & 1 & 1 \\
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1250,7 +1245,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.542 		F_{C}^{\prime} &
+l.629 		F_{C}^{\prime} &
                          0 & 0 & 0 & 0 & 0 & 0 & 1 & 1 \\
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1258,7 +1253,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.542 		F_{C}^{\prime} &
+l.629 		F_{C}^{\prime} &
                          0 & 0 & 0 & 0 & 0 & 0 & 1 & 1 \\
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1269,7 +1264,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.544 		F_
+l.631 		F_
           {AB}^{\prime\prime} & 1 & 0 & 1 & 0 & 1 & 0 & 1 & 0 \\
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1277,7 +1272,7 @@ you left one out. Proceed, with fingers crossed.
 ! Extra }, or forgotten $.
 <template> \unskip \hfil }
                           \hskip \tabcolsep \hskip -.5\arrayrulewidth \vrule...
-l.544 		F_{AB}^{\prime\prime} &
+l.631 		F_{AB}^{\prime\prime} &
                                 1 & 0 & 1 & 0 & 1 & 0 & 1 & 0 \\
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1288,7 +1283,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.544 		F_{AB}^{\prime\prime} &
+l.631 		F_{AB}^{\prime\prime} &
                                 1 & 0 & 1 & 0 & 1 & 0 & 1 & 0 \\
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1296,7 +1291,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.544 		F_{AB}^{\prime\prime} &
+l.631 		F_{AB}^{\prime\prime} &
                                 1 & 0 & 1 & 0 & 1 & 0 & 1 & 0 \\
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1307,7 +1302,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.546 		F_
+l.633 		F_
           {AC}^{\prime\prime} & 0 & 0 & 1 & 1 & 0 & 0 & 1 & 1 \\
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1315,7 +1310,7 @@ you left one out. Proceed, with fingers crossed.
 ! Extra }, or forgotten $.
 <template> \unskip \hfil }
                           \hskip \tabcolsep \hskip -.5\arrayrulewidth \vrule...
-l.546 		F_{AC}^{\prime\prime} &
+l.633 		F_{AC}^{\prime\prime} &
                                 0 & 0 & 1 & 1 & 0 & 0 & 1 & 1 \\
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1326,7 +1321,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.546 		F_{AC}^{\prime\prime} &
+l.633 		F_{AC}^{\prime\prime} &
                                 0 & 0 & 1 & 1 & 0 & 0 & 1 & 1 \\
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1334,7 +1329,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.546 		F_{AC}^{\prime\prime} &
+l.633 		F_{AC}^{\prime\prime} &
                                 0 & 0 & 1 & 1 & 0 & 0 & 1 & 1 \\
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1345,7 +1340,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.548 		F_
+l.635 		F_
           {BC}^{\prime\prime} & 0 & 0 & 0 & 0 & 1 & 1 & 1 & 1 \\
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1353,7 +1348,7 @@ you left one out. Proceed, with fingers crossed.
 ! Extra }, or forgotten $.
 <template> \unskip \hfil }
                           \hskip \tabcolsep \hskip -.5\arrayrulewidth \vrule...
-l.548 		F_{BC}^{\prime\prime} &
+l.635 		F_{BC}^{\prime\prime} &
                                 0 & 0 & 0 & 0 & 1 & 1 & 1 & 1 \\
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1364,7 +1359,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.548 		F_{BC}^{\prime\prime} &
+l.635 		F_{BC}^{\prime\prime} &
                                 0 & 0 & 0 & 0 & 1 & 1 & 1 & 1 \\
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1372,7 +1367,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.548 		F_{BC}^{\prime\prime} &
+l.635 		F_{BC}^{\prime\prime} &
                                 0 & 0 & 0 & 0 & 1 & 1 & 1 & 1 \\
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1383,7 +1378,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.550 		F_
+l.637 		F_
           {ABC}^{\prime\prime\prime} & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 \\
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1391,7 +1386,7 @@ you left one out. Proceed, with fingers crossed.
 ! Extra }, or forgotten $.
 <template> \unskip \hfil }
                           \hskip \tabcolsep \hskip -.5\arrayrulewidth \vrule...
-l.550 		F_{ABC}^{\prime\prime\prime} &
+l.637 		F_{ABC}^{\prime\prime\prime} &
                                        1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 \\
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1402,7 +1397,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.550 		F_{ABC}^{\prime\prime\prime} &
+l.637 		F_{ABC}^{\prime\prime\prime} &
                                        1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 \\
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1410,7 +1405,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.550 		F_{ABC}^{\prime\prime\prime} &
+l.637 		F_{ABC}^{\prime\prime\prime} &
                                        1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 \\
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1418,32 +1413,33 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-[3] [4] (./document.aux) ) 
+[4] [5] (./document.aux) ) 
 Here is how much of TeX's memory you used:
- 5251 strings out of 492990
- 68532 string characters out of 6136334
- 178219 words of memory out of 5000000
- 8630 multiletter control sequences out of 15000+600000
- 20748 words of font info for 63 fonts, out of 8000000 for 9000
+ 5267 strings out of 492990
+ 68865 string characters out of 6136334
+ 178358 words of memory out of 5000000
+ 8641 multiletter control sequences out of 15000+600000
+ 21639 words of font info for 69 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,13n,30p,641b,229s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,13n,30p,883b,229s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2017/texmf-dist/fonts/enc/dvips/cm-super/
 cm-super-t2a.enc}<c:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cme
 x10.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
-c:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive
-/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2017/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2017/texmf-dist/font
-s/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2017/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmsy7.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/cm-s
-uper/sfbx1200.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfbx1
-440.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb><c
-:/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb><c:/texlive/
-2017/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><c:/texlive/2017/texmf
--dist/fonts/type1/public/cm-super/sfrm1728.pfb>
-Output written on document.pdf (4 pages, 158415 bytes).
+c:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texliv
+e/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2017/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2017/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2017/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmr7.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmsy10.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/c
+msy7.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb><
+c:/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb><c:/texlive
+/2017/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb><c:/texlive/2017/texm
+f-dist/fonts/type1/public/cm-super/sfrm1200.pfb><c:/texlive/2017/texmf-dist/fon
+ts/type1/public/cm-super/sfrm1728.pfb>
+Output written on document.pdf (5 pages, 168925 bytes).
 PDF statistics:
- 75 PDF objects out of 1000 (max. 8388607)
- 50 compressed objects within 1 object stream
+ 82 PDF objects out of 1000 (max. 8388607)
+ 55 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  21 words of extra memory for PDF output out of 10000 (max. 10000000)
 
