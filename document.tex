@@ -925,21 +925,81 @@
 	(\overline{A} + \overline{B} + C) 
 	\cdot (\overline{A} \cdot \overline{B} + A \cdot B) =
 	(\overline{A} + \overline{B} + C) 
-	\cdot (\overline{A} + B
-	)
+	\cdot (\overline{A} + B) \cdot (A + \overline{B}) = \\
+	(\overline{A} + \overline{B} + C) \cdot \overline{A \cdot \overline{B}}
+	\cdot \overline{\overline{A} \cdot B} = 
+	(\overline{A} + \overline{B} + C) \cdot 
+	\overline{A \cdot \overline{B} + \overline{\overline{A} \cdot B}} +
+	\overline{\overline{A} + \overline{B} + C} 
+	\cdot (A \cdot \overline{B} + \overline{A} \cdot B)
+	\end{multline*}
+	Последнее действие корректно, так как
+	\begin{equation*}
+		\overline{\overline{A} + \overline{B} + C} 
+		\cdot (A \cdot \overline{B} + \overline{A} \cdot B) =
+		A \cdot B \cdot \overline{C} (A \cdot \overline{B} + \overline{A} \cdot B) =
+		0
+	\end{equation*}
+	Продолжим преобразования:
+	\begin{multline*}
+	(\overline{A} + \overline{B} + C) \cdot 
+	\overline{A \cdot \overline{B} + \overline{\overline{A} \cdot B}} +
+	\overline{\overline{A} + \overline{B} + C} 
+	\cdot (A \cdot \overline{B} + \overline{A} \cdot B) =
+	(\overline{A} + (\overline{B} + C)) 
+	\oplus (A \cdot \overline{B} + \overline{A} \cdot B) = \\
+	(A \implies (B \implies C)) \oplus (A \oplus B)
 	\end{multline*}
 	
 	\subsection{Базис 07}
 	
+	\begin{multline*}
+		(A + \overline{B}) \cdot (\overline{A} + B) \cdot (\overline{A} + C) =
+		\overline{\overline{A} \cdot B + A \cdot \overline{B} + A \cdot \overline{C}} = 
+		\overline{(A + B) \cdot (\overline{A} + \overline{B}) +
+		 A \cdot \overline{C}} = \\
+	 	\overline{\overline{\overline{A} \cdot \overline{B}} 
+	 	\cdot \overline{A \cdot B} + A \cdot \overline{C}} = 
+ 		\overline{\overline{\overline{A} \cdot \overline{B}
+ 		+ A \cdot B} + A \cdot \overline{C}} = 
+ 		(\overline{A} \cdot \overline{B} + A \cdot B) 
+ 		\centernot\implies A \cdot \overline{C} = \\
+ 		(A \equiv B) \centernot\implies (\overline{\overline{A} + C}) =
+ 		(A \equiv B) \centernot\implies (A \centernot\implies C)
+	\end{multline*}
+
+	
 	\subsection{Базис 08}
 	
+	\begin{multline*}
+		A \cdot B \cdot C + \overline{A}\cdot \overline{B} =
+		\overline{\overline{A} + \overline{B} + \overline{C}} + \overline{A + B} =
+		(\overline{C} + (\overline{B} + \overline{A})) \implies \overline{A + B} = \\
+		(C \implies (B \implies \overline{A})) \implies 
+		\overline{\overline{A} \implies B} 
+	\end{multline*}
+	
 	\subsection{Базис 09}
+
+	\begin{multline*}
+		\overline{A} \cdot \overline{B} + A \cdot B \cdot C = 
+		(\overline{A} + B) \cdot (\overline{B} + A \cdot C) = 
+		(\overline{A}+ B) \cdot 
+		(\overline{B} + \overline{\overline{A} + \overline{C}}) = \\
+		\overline{\overline{\overline{A} + B} +
+		\overline{\overline{B} + \overline{\overline{A} + \overline{C}}}} = 
+		(\overline{A} + B) \centernot\implies 
+		\overline{\overline{B} + \overline{\overline{A} + \overline{C}}} =\\
+		(A \implies B) \centernot\implies 
+		(B \centernot\implies (C \centernot\implies \overline{A})) =
+		\overline{A \centernot\implies B} \centernot\implies 
+		(B \centernot\implies (C \centernot\implies \overline{A}))
+	\end{multline*}
 	
 	\subsection{Базис 10}
 	
 	\begin{equation}
-		A \cdot B \cdot C + \overline{A} \cdot \overline{B} =
-		\overline{\overline{A} + \overline{B} + \overline{C}} + \overline{A + B}
+		
 	\end{equation}
 	
 	\subsection{Базис 11}
@@ -960,4 +1020,69 @@
 	\subsection{Базис 16}
 	
 	\subsection{Базис 17}
+	
+	\section{Условия переключения сигнала на выходе при переключении сигнала на каждой паре в табличном виде}
+	Найдём условия переключения сигнала на выходе схемы, реализующей функцию F, при переключении сигналов на каждой паре её входов в табличном виде.
+	
+	\begin{tabular}{|c|c|c|c|c|c|c|c|c|}
+		\hline 
+		A & 0 & 0 & 0 & 0 & 1 & 1 & 1 & 1 \\ 
+		\hline 
+		B & 0 & 0 & 1 & 1 & 0 & 0 & 1 & 1 \\ 
+		\hline 
+		C & 0 & 1 & 0 & 1 & 0 & 1 & 0 & 1 \\ 
+		\hline 
+		$F_{AB}^{\prime}$ & 1 & 0 & 0 & 0 & 0 & 0 & 1 & 0 \\ 
+		\hline 
+		$F_{AC}^{\prime}$ & 1 & 1 & 1 & 1 & 1 & 0 & 0 & 1 \\ 
+		\hline 
+		$F_{BC}^{\prime}$ & 1 & 1 & 1 & 0 & 1 & 1 & 0 & 1 \\ 
+		\hline 
+	\end{tabular} 
+
+
+	\section{Условия переключения сигнала на выходе при переключении сигнала на каждой паре в аналитическом виде}
+	Найдём условия переключения сигнала на выходе схемы, реализующей функцию F, при переключении сигналов на каждой паре её входов в аналитическом виде, воспользовавшись таблицей из предыдущего задания.
+	
+	\begin{equation*}
+		F_{AB}^{\prime} = (A \oplus B) \circ C
+	\end{equation*}
+	\begin{equation*}
+		F_{AC}^{\prime} = (A \oplus C) | B
+	\end{equation*}
+	\begin{equation*}
+		F_{BC}^{\prime} = (B \oplus C) | A
+	\end{equation*}
+	
+	\section{Условия переключения сигнала на выходе схемы при переключении сигналов на всех входах в табличном виде}
+	Найдём условия переключения сигнала на выходе схемы, реализующей функцию F, при переключении сигналов на каждом её входе в табличном виде.
+	
+	\begin{tabular}{|c|c|c|c|c|c|c|c|c|}
+		\hline 
+		A & 0 & 0 & 0 & 0 & 1 & 1 & 1 & 1 \\ 
+		\hline 
+		B & 0 & 0 & 1 & 1 & 0 & 0 & 1 & 1 \\ 
+		\hline 
+		C & 0 & 1 & 0 & 1 & 0 & 1 & 0 & 1 \\ 
+		\hline 
+		$F_{ABC}^{\prime}$ & 0 & 1 & 0 & 0 & 0 & 0 & 1 & 0 \\ 
+		\hline 
+		\end{tabular} 
+	
+	\section{Условия переключения сигнала на выходе схемы при переключении сигналов на всех входах в аналитическом виде}
+	Найдём условия переключения сигнала на выходе схемы, реализующей функцию F, при переключении сигналов на каждом её входе в аналитическом виде, воспользовавшись таблицей из предыдущего задания.
+	
+	\begin{equation*}
+		F_{ABC}^{\prime} = (A \oplus C) \centernot\implies (A \oplus B)
+	\end{equation*}
+	
+	\section{Принадлежность к замкнутым классам критерия Поста}
+	$F \notin T_{0}$, так как $F(0, 0, 0) = 1$ \\
+	$F \in T_{1}$, так как $F(1, 1, 1) = 1$ \\
+	$F \notin T_{*}$, так как $F(0, 0, 0) = 1$, а  $F(1, 1, 1) = 1$ \\
+	$F \notin T_{\leq}$, так как $F(0, 0, 0) > F(0, 1, 0)$ \\
+	$F \notin T_{L}$, так как $F(A, B, C) = 1 \oplus A \oplus B \oplus A \cdot B 
+	\oplus A \cdot B\cdot C$ (представление в полиноме Жегалкина) содержит нелинейные слагаемые.
+	
+	
 \end{document}
