@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2017.9.11)  11 OCT 2017 23:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2017.9.11)  18 OCT 2017 13:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -897,7 +897,64 @@ See the amsmath package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.167 	\end{multline}
+l.86 \end{multline*}
+                    
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! Package amsmath Error: Erroneous nesting of equation structures;
+(amsmath)                trying to recover with `aligned'.
+
+See the amsmath package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.86 \end{multline*}
+                    
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! Package amsmath Error: Erroneous nesting of equation structures;
+(amsmath)                trying to recover with `aligned'.
+
+See the amsmath package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.86 \end{multline*}
+                    
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! Package amsmath Error: Erroneous nesting of equation structures;
+(amsmath)                trying to recover with `aligned'.
+
+See the amsmath package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.86 \end{multline*}
+                    
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (1.5183pt too wide) detected at line 86
+ []$[]   [] [][] [] [][]$ 
+ []
+
+
+! Package amsmath Error: Erroneous nesting of equation structures;
+(amsmath)                trying to recover with `aligned'.
+
+See the amsmath package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.120 \end{multline*}
                      
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -910,7 +967,7 @@ See the amsmath package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.167 	\end{multline}
+l.120 \end{multline*}
                      
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -923,7 +980,7 @@ See the amsmath package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.167 	\end{multline}
+l.120 \end{multline*}
                      
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -936,7 +993,25 @@ See the amsmath package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.167 	\end{multline}
+l.120 \end{multline*}
+                     
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (1.5183pt too wide) detected at line 120
+ []$[]   [] [][] [] [][]$ 
+ []
+
+
+! Package amsmath Error: Erroneous nesting of equation structures;
+(amsmath)                trying to recover with `aligned'.
+
+See the amsmath package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.158 \end{multline*}
                      
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -949,7 +1024,7 @@ See the amsmath package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.167 	\end{multline}
+l.158 \end{multline*}
                      
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -962,7 +1037,7 @@ See the amsmath package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.167 	\end{multline}
+l.158 \end{multline*}
                      
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -975,8 +1050,26 @@ See the amsmath package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.167 	\end{multline}
+l.158 \end{multline*}
                      
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (1.5183pt too wide) detected at line 158
+ []$[]   [] [][] [] [][]$ 
+ []
+
+
+! Package amsmath Error: Erroneous nesting of equation structures;
+(amsmath)                trying to recover with `aligned'.
+
+See the amsmath package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.197 	\end{multline*}
+                      
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -988,8 +1081,8 @@ See the amsmath package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.167 	\end{multline}
-                     
+l.197 	\end{multline*}
+                      
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -1001,8 +1094,8 @@ See the amsmath package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.167 	\end{multline}
-                     
+l.197 	\end{multline*}
+                      
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -1014,93 +1107,20 @@ See the amsmath package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.167 	\end{multline}
-                     
+l.197 	\end{multline*}
+                      
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-! Package amsmath Error: Erroneous nesting of equation structures;
-(amsmath)                trying to recover with `aligned'.
-
-See the amsmath package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.167 	\end{multline}
-                     
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package amsmath Error: Erroneous nesting of equation structures;
-(amsmath)                trying to recover with `aligned'.
-
-See the amsmath package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.167 	\end{multline}
-                     
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package amsmath Error: Erroneous nesting of equation structures;
-(amsmath)                trying to recover with `aligned'.
-
-See the amsmath package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.167 	\end{multline}
-                     
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package amsmath Error: Erroneous nesting of equation structures;
-(amsmath)                trying to recover with `aligned'.
-
-See the amsmath package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.167 	\end{multline}
-                     
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package amsmath Error: Erroneous nesting of equation structures;
-(amsmath)                trying to recover with `aligned'.
-
-See the amsmath package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.167 	\end{multline}
-                     
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-! Package amsmath Error: Erroneous nesting of equation structures;
-(amsmath)                trying to recover with `aligned'.
-
-See the amsmath package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.167 	\end{multline}
-                     
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+Overfull \hbox (11.5183pt too wide) detected at line 197
+ []$[]   [] [][] [] [][]  $ 
+ []
 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.170 	\begin{bmatrix}
+l.200 	\begin{bmatrix}
                       
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1108,7 +1128,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.179 	\end{bmatrix}
+l.209 	\end{bmatrix}
                      \\
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1117,32 +1137,33 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 169--180
-
- []
-
-
-LaTeX Warning: Command \textellipsis invalid in math mode on input line 182.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 181--184
+Underfull \hbox (badness 10000) in paragraph at lines 199--210
 
  []
 
 [1
 
 {c:/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-Underfull \hbox (badness 10000) in paragraph at lines 185--186
+
+LaTeX Warning: Command \textellipsis invalid in math mode on input line 212.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 211--214
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 187--188
+Underfull \hbox (badness 10000) in paragraph at lines 215--216
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 203--204
+Underfull \hbox (badness 10000) in paragraph at lines 217--218
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 233--234
 
  []
 
@@ -1150,7 +1171,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 203--204
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.625 		F_
+l.655 		F_
           {A}^{\prime} & 1 & 1 & 0 & 1 & 1 & 1 & 0 & 1 \\
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1158,7 +1179,7 @@ you left one out. Proceed, with fingers crossed.
 ! Extra }, or forgotten $.
 <template> \unskip \hfil }
                           \hskip \tabcolsep \hskip -.5\arrayrulewidth \vrule...
-l.625 		F_{A}^{\prime} &
+l.655 		F_{A}^{\prime} &
                          1 & 1 & 0 & 1 & 1 & 1 & 0 & 1 \\
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1169,7 +1190,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.625 		F_{A}^{\prime} &
+l.655 		F_{A}^{\prime} &
                          1 & 1 & 0 & 1 & 1 & 1 & 0 & 1 \\
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1177,7 +1198,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.625 		F_{A}^{\prime} &
+l.655 		F_{A}^{\prime} &
                          1 & 1 & 0 & 1 & 1 & 1 & 0 & 1 \\
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1188,7 +1209,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.627 		F_
+l.657 		F_
           {B}^{\prime} & 1 & 1 & 1 & 1 & 0 & 1 & 0 & 1 \\
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1196,7 +1217,7 @@ you left one out. Proceed, with fingers crossed.
 ! Extra }, or forgotten $.
 <template> \unskip \hfil }
                           \hskip \tabcolsep \hskip -.5\arrayrulewidth \vrule...
-l.627 		F_{B}^{\prime} &
+l.657 		F_{B}^{\prime} &
                          1 & 1 & 1 & 1 & 0 & 1 & 0 & 1 \\
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1207,7 +1228,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.627 		F_{B}^{\prime} &
+l.657 		F_{B}^{\prime} &
                          1 & 1 & 1 & 1 & 0 & 1 & 0 & 1 \\
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1215,7 +1236,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.627 		F_{B}^{\prime} &
+l.657 		F_{B}^{\prime} &
                          1 & 1 & 1 & 1 & 0 & 1 & 0 & 1 \\
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1226,7 +1247,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.629 		F_
+l.659 		F_
           {C}^{\prime} & 0 & 0 & 0 & 0 & 0 & 0 & 1 & 1 \\
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1234,7 +1255,7 @@ you left one out. Proceed, with fingers crossed.
 ! Extra }, or forgotten $.
 <template> \unskip \hfil }
                           \hskip \tabcolsep \hskip -.5\arrayrulewidth \vrule...
-l.629 		F_{C}^{\prime} &
+l.659 		F_{C}^{\prime} &
                          0 & 0 & 0 & 0 & 0 & 0 & 1 & 1 \\
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1245,7 +1266,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.629 		F_{C}^{\prime} &
+l.659 		F_{C}^{\prime} &
                          0 & 0 & 0 & 0 & 0 & 0 & 1 & 1 \\
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1253,7 +1274,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.629 		F_{C}^{\prime} &
+l.659 		F_{C}^{\prime} &
                          0 & 0 & 0 & 0 & 0 & 0 & 1 & 1 \\
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1264,7 +1285,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.631 		F_
+l.661 		F_
           {AB}^{\prime\prime} & 1 & 0 & 1 & 0 & 1 & 0 & 1 & 0 \\
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1272,7 +1293,7 @@ you left one out. Proceed, with fingers crossed.
 ! Extra }, or forgotten $.
 <template> \unskip \hfil }
                           \hskip \tabcolsep \hskip -.5\arrayrulewidth \vrule...
-l.631 		F_{AB}^{\prime\prime} &
+l.661 		F_{AB}^{\prime\prime} &
                                 1 & 0 & 1 & 0 & 1 & 0 & 1 & 0 \\
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1283,7 +1304,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.631 		F_{AB}^{\prime\prime} &
+l.661 		F_{AB}^{\prime\prime} &
                                 1 & 0 & 1 & 0 & 1 & 0 & 1 & 0 \\
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1291,7 +1312,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.631 		F_{AB}^{\prime\prime} &
+l.661 		F_{AB}^{\prime\prime} &
                                 1 & 0 & 1 & 0 & 1 & 0 & 1 & 0 \\
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1302,7 +1323,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.633 		F_
+l.663 		F_
           {AC}^{\prime\prime} & 0 & 0 & 1 & 1 & 0 & 0 & 1 & 1 \\
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1310,7 +1331,7 @@ you left one out. Proceed, with fingers crossed.
 ! Extra }, or forgotten $.
 <template> \unskip \hfil }
                           \hskip \tabcolsep \hskip -.5\arrayrulewidth \vrule...
-l.633 		F_{AC}^{\prime\prime} &
+l.663 		F_{AC}^{\prime\prime} &
                                 0 & 0 & 1 & 1 & 0 & 0 & 1 & 1 \\
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1321,7 +1342,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.633 		F_{AC}^{\prime\prime} &
+l.663 		F_{AC}^{\prime\prime} &
                                 0 & 0 & 1 & 1 & 0 & 0 & 1 & 1 \\
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1329,7 +1350,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.633 		F_{AC}^{\prime\prime} &
+l.663 		F_{AC}^{\prime\prime} &
                                 0 & 0 & 1 & 1 & 0 & 0 & 1 & 1 \\
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1340,7 +1361,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.635 		F_
+l.665 		F_
           {BC}^{\prime\prime} & 0 & 0 & 0 & 0 & 1 & 1 & 1 & 1 \\
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1348,7 +1369,7 @@ you left one out. Proceed, with fingers crossed.
 ! Extra }, or forgotten $.
 <template> \unskip \hfil }
                           \hskip \tabcolsep \hskip -.5\arrayrulewidth \vrule...
-l.635 		F_{BC}^{\prime\prime} &
+l.665 		F_{BC}^{\prime\prime} &
                                 0 & 0 & 0 & 0 & 1 & 1 & 1 & 1 \\
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1359,7 +1380,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.635 		F_{BC}^{\prime\prime} &
+l.665 		F_{BC}^{\prime\prime} &
                                 0 & 0 & 0 & 0 & 1 & 1 & 1 & 1 \\
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1367,7 +1388,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.635 		F_{BC}^{\prime\prime} &
+l.665 		F_{BC}^{\prime\prime} &
                                 0 & 0 & 0 & 0 & 1 & 1 & 1 & 1 \\
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1378,7 +1399,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.637 		F_
+l.667 		F_
           {ABC}^{\prime\prime\prime} & 1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 \\
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1386,7 +1407,7 @@ you left one out. Proceed, with fingers crossed.
 ! Extra }, or forgotten $.
 <template> \unskip \hfil }
                           \hskip \tabcolsep \hskip -.5\arrayrulewidth \vrule...
-l.637 		F_{ABC}^{\prime\prime\prime} &
+l.667 		F_{ABC}^{\prime\prime\prime} &
                                        1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 \\
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1397,7 +1418,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.637 		F_{ABC}^{\prime\prime\prime} &
+l.667 		F_{ABC}^{\prime\prime\prime} &
                                        1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 \\
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -1405,7 +1426,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.637 		F_{ABC}^{\prime\prime\prime} &
+l.667 		F_{ABC}^{\prime\prime\prime} &
                                        1 & 1 & 1 & 1 & 1 & 1 & 1 & 1 \\
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1413,15 +1434,46 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-[4] [5] (./document.aux) ) 
+[4]
+Overfull \hbox (5.11256pt too wide) detected at line 836
+ []$[]  \OT1/cmr/m/n/10 (\OML/cmm/m/it/10 A \OT1/cmr/m/n/10 + []) \OMS/cmsy/m/n
+/10 ^^A \OT1/cmr/m/n/10 ([] + \OML/cmm/m/it/10 C\OT1/cmr/m/n/10 ) \OMS/cmsy/m/n
+/10 ^^A \OT1/cmr/m/n/10 ([] + \OML/cmm/m/it/10 B\OT1/cmr/m/n/10 ) = (\OML/cmm/m
+/it/10 A \OT1/cmr/m/n/10 + []) \OMS/cmsy/m/n/10 ^^A \OT1/cmr/m/n/10 ([] + \OML/
+cmm/m/it/10 B\OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/10 ^^A \OT1/cmr/m/n/10 ([] + \OML/
+cmm/m/it/10 C\OT1/cmr/m/n/10 ) = [] \OMS/cmsy/m/n/10 ^^A [] ^^A \OT1/cmr/m/n/10
+ ([] + \OML/cmm/m/it/10 C\OT1/cmr/m/n/10 ) = [] \OMS/cmsy/m/n/10 ^^A [] \OT1/cm
+r/m/n/10 =$ 
+ []
+
+[5]
+Overfull \hbox (68.21245pt too wide) detected at line 902
+ []$[]\OT1/cmr/m/n/10 (1 [] []) [] (\OML/cmm/m/it/10 B [] \OT1/cmr/m/n/10 (\OML
+/cmm/m/it/10 C [] []\OT1/cmr/m/n/10 )) = (1 [] (\OML/cmm/m/it/10 A [] B\OT1/cmr
+/m/n/10 )) [] (\OML/cmm/m/it/10 B [] \OT1/cmr/m/n/10 (\OML/cmm/m/it/10 C [] \OT
+1/cmr/m/n/10 (\OML/cmm/m/it/10 B [] A\OT1/cmr/m/n/10 )))  $ 
+ []
+
+
+Overfull \hbox (9.81686pt too wide) detected at line 920
+ []$[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 A  \OT1/cmr/m/n/10 =[]\OMS/cmsy/m/n/10 
+)  \OML/cmm/m/it/10 C\OT1/cmr/m/n/10 ) [] ((\OML/cmm/m/it/10 A  \OT1/cmr/m/n/10
+ =[]\OMS/cmsy/m/n/10 )  \OML/cmm/m/it/10 B\OT1/cmr/m/n/10 )  =[]\OMS/cmsy/m/n/1
+0 )  []\OT1/cmr/m/n/10 ) = (\OML/cmm/m/it/10 A  \OT1/cmr/m/n/10 =[]\OMS/cmsy/m/
+n/10 )  \OML/cmm/m/it/10 C\OT1/cmr/m/n/10 ) [] ((\OML/cmm/m/it/10 A  \OT1/cmr/m
+/n/10 =[]\OMS/cmsy/m/n/10 )  \OML/cmm/m/it/10 B\OT1/cmr/m/n/10 )  =[]\OMS/cmsy/
+m/n/10 )  \OT1/cmr/m/n/10 (\OML/cmm/m/it/10 B [] A\OT1/cmr/m/n/10 ))  $ 
+ []
+
+[6] [7] (./document.aux) ) 
 Here is how much of TeX's memory you used:
- 5267 strings out of 492990
- 68865 string characters out of 6136334
- 178358 words of memory out of 5000000
- 8641 multiletter control sequences out of 15000+600000
- 21639 words of font info for 69 fonts, out of 8000000 for 9000
+ 5270 strings out of 492990
+ 68904 string characters out of 6136334
+ 183358 words of memory out of 5000000
+ 8642 multiletter control sequences out of 15000+600000
+ 22458 words of font info for 70 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,13n,30p,883b,229s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,23n,30p,883b,229s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2017/texmf-dist/fonts/enc/dvips/cm-super/
 cm-super-t2a.enc}<c:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cme
 x10.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
@@ -1431,15 +1483,16 @@ mf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2017/texmf-dist/fo
 nts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2017/texmf-dist/fonts/type1/
 public/amsfonts/cm/cmr7.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/amsf
 onts/cm/cmsy10.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/c
-msy7.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb><
-c:/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb><c:/texlive
-/2017/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb><c:/texlive/2017/texm
-f-dist/fonts/type1/public/cm-super/sfrm1200.pfb><c:/texlive/2017/texmf-dist/fon
-ts/type1/public/cm-super/sfrm1728.pfb>
-Output written on document.pdf (5 pages, 168925 bytes).
+msy7.pfb><c:/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><
+c:/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb><c:/texlive
+/2017/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb><c:/texlive/2017/texm
+f-dist/fonts/type1/public/cm-super/sfrm1000.pfb><c:/texlive/2017/texmf-dist/fon
+ts/type1/public/cm-super/sfrm1200.pfb><c:/texlive/2017/texmf-dist/fonts/type1/p
+ublic/cm-super/sfrm1728.pfb>
+Output written on document.pdf (7 pages, 192049 bytes).
 PDF statistics:
- 82 PDF objects out of 1000 (max. 8388607)
- 55 compressed objects within 1 object stream
+ 94 PDF objects out of 1000 (max. 8388607)
+ 64 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  21 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -46,8 +46,9 @@
 	\section{Решение системы уравнений и составление таблицы истинности функции}
 	
 	Составим расширенную матрицу коэффициентов и выполним определенные действия для решения системы.
-	\begin{multline}
-		\begin{bmatrix}
+	\begin{multline*}
+		\left(
+		\begin{array}{cccccccc|c}
 		1 & 0 & 0 & 0 & 1 & 0 & 1 & 1 & 0 \\
 		1 & 0 & 1 & 0 & 0 & 0 & 1 & 0 & 1 \\
 		0 & 1 & 0 & 1 & 1 & 1 & 1 & 0 & 1 \\
@@ -56,13 +57,16 @@
 		0 & 1 & 0 & 1 & 1 & 0 & 1 & 0 & 1 \\
 		0 & 1 & 0 & 1 & 1 & 1 & 0 & 0 & 1 \\
 		0 & 0 & 0 & 0 & 1 & 1 & 0 & 0 & 0 \\
-		\end{bmatrix}
+		\end{array}
+		\right)
 		\begin{align}
 		(1) \oplus= (0)\\
 		(3) \oplus= (0)\\
 		(4) \oplus= (0)\\
+		\xrightarrow{\hspace*{1.5cm}}
 		\end{align}
-		\begin{bmatrix}
+		\left(
+		\begin{array}{cccccccc|c}
 		1 & 0 & 0 & 0 & 1 & 0 & 1 & 1 & 0 \\
 		0 & 0 & 1 & 0 & 1 & 0 & 0 & 1 & 1 \\
 		0 & 1 & 0 & 1 & 1 & 1 & 1 & 0 & 1 \\
@@ -71,13 +75,18 @@
 		0 & 1 & 0 & 1 & 1 & 0 & 1 & 0 & 1 \\
 		0 & 1 & 0 & 1 & 1 & 1 & 0 & 0 & 1 \\
 		0 & 0 & 0 & 0 & 1 & 1 & 0 & 0 & 0 \\
-		\end{bmatrix}
+		\end{array}
+		\right)
 		\begin{align}
 		(4) \oplus= (2)\\
 		(5) \oplus= (2)\\
 		(6) \oplus= (2)\\
+		\xrightarrow{\hspace*{1.5cm}}
 		\end{align}\\
-		\begin{bmatrix}
+\end{multline*}
+\begin{multline*}
+		\left(
+		\begin{array}{cccccccc|c}
 		1 & 0 & 0 & 0 & 1 & 0 & 1 & 1 & 0 \\
 		0 & 0 & 1 & 0 & 1 & 0 & 0 & 1 & 1 \\
 		0 & 1 & 0 & 1 & 1 & 1 & 1 & 0 & 1 \\
@@ -86,11 +95,14 @@
 		0 & 0 & 0 & 0 & 0 & 1 & 0 & 0 & 0 \\
 		0 & 0 & 0 & 0 & 0 & 0 & 1 & 0 & 0 \\
 		0 & 0 & 0 & 0 & 1 & 1 & 0 & 0 & 0 \\
-		\end{bmatrix}
+		\end{array}
+		\right)
 		\begin{align}
 		(3) \oplus= (1)\\
+		\xrightarrow{\hspace*{1.5cm}}
 		\end{align}
-		\begin{bmatrix}
+		\left(
+		\begin{array}{cccccccc|c}
 		1 & 0 & 0 & 0 & 1 & 0 & 1 & 1 & 0 \\
 		0 & 0 & 1 & 0 & 1 & 0 & 0 & 1 & 1 \\
 		0 & 1 & 0 & 1 & 1 & 1 & 1 & 0 & 1 \\
@@ -99,11 +111,16 @@
 		0 & 0 & 0 & 0 & 0 & 1 & 0 & 0 & 0 \\
 		0 & 0 & 0 & 0 & 0 & 0 & 1 & 0 & 0 \\
 		0 & 0 & 0 & 0 & 1 & 1 & 0 & 0 & 0 \\
-		\end{bmatrix}
+		\end{array}
+		\right)
 		\begin{align}
 		(2) \oplus= (4)\\
+		\xrightarrow{\hspace*{1.5cm}}
 		\end{align}\\
-		\begin{bmatrix}
+\end{multline*}
+\begin{multline*}
+		\left(
+		\begin{array}{cccccccc|c}
 		1 & 0 & 0 & 0 & 1 & 0 & 1 & 1 & 0 \\
 		0 & 0 & 1 & 0 & 1 & 0 & 0 & 1 & 1 \\
 		0 & 1 & 0 & 0 & 0 & 1 & 1 & 1 & 0 \\
@@ -112,14 +129,17 @@
 		0 & 0 & 0 & 0 & 0 & 1 & 0 & 0 & 0 \\
 		0 & 0 & 0 & 0 & 0 & 0 & 1 & 0 & 0 \\
 		0 & 0 & 0 & 0 & 1 & 1 & 0 & 0 & 0 \\
-		\end{bmatrix}
+		\end{array}
+		\right)
 		\begin{align}
 		(0) \oplus= (3)\\
 		(1) \oplus= (3)\\
 		(4) \oplus= (3)\\
 		(7) \oplus= (3)\\
+		\xrightarrow{\hspace*{1.5cm}}
 		\end{align}
-		\begin{bmatrix}
+		\left(
+		\begin{array}{cccccccc|c}
 		1 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 1 \\
 		0 & 0 & 1 & 0 & 0 & 0 & 1 & 0 & 0 \\
 		0 & 1 & 0 & 0 & 0 & 1 & 1 & 1 & 0 \\
@@ -128,12 +148,17 @@
 		0 & 0 & 0 & 0 & 0 & 1 & 0 & 0 & 0 \\
 		0 & 0 & 0 & 0 & 0 & 0 & 1 & 0 & 0 \\
 		0 & 0 & 0 & 0 & 0 & 1 & 1 & 1 & 1 \\
-		\end{bmatrix}
+		\end{array}
+		\right)
 		\begin{align}
 		(2) \oplus= (5)\\
 		(7) \oplus= (5)\\
+		\xrightarrow{\hspace*{1.5cm}}
 		\end{align}\\
-		\begin{bmatrix}
+\end{multline*}
+\begin{multline*}
+		\left(
+		\begin{array}{cccccccc|c}
 		1 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 1 \\
 		0 & 0 & 1 & 0 & 0 & 0 & 1 & 0 & 0 \\
 		0 & 1 & 0 & 0 & 0 & 0 & 1 & 1 & 0 \\
@@ -142,15 +167,18 @@
 		0 & 0 & 0 & 0 & 0 & 1 & 0 & 0 & 0 \\
 		0 & 0 & 0 & 0 & 0 & 0 & 1 & 0 & 0 \\
 		0 & 0 & 0 & 0 & 0 & 0 & 1 & 1 & 1 \\
-		\end{bmatrix}
+		\end{array}
+		\right)
 		\begin{align}
 		(1) \oplus= (6)\\
 		(2) \oplus= (6)\\
 		(3) \oplus= (6)\\
 		(4) \oplus= (6)\\
 		(7) \oplus= (6)\\
+		\xrightarrow{\hspace*{1.5cm}}
 		\end{align}
-		\begin{bmatrix}
+		\left(
+		\begin{array}{cccccccc|c}
 		1 & 0 & 0 & 0 & 0 & 0 & 0 & 0 & 1 \\
 		0 & 0 & 1 & 0 & 0 & 0 & 0 & 0 & 0 \\
 		0 & 1 & 0 & 0 & 0 & 0 & 0 & 1 & 0 \\
@@ -159,12 +187,14 @@
 		0 & 0 & 0 & 0 & 0 & 1 & 0 & 0 & 0 \\
 		0 & 0 & 0 & 0 & 0 & 0 & 1 & 0 & 0 \\
 		0 & 0 & 0 & 0 & 0 & 0 & 0 & 1 & 1 \\
-		\end{bmatrix}
+		\end{array}
+		\right)
 		\begin{align}
 		(2) \oplus= (7)\\
 		(3) \oplus= (7)\\
+		\xrightarrow{\hspace*{1.5cm}}
 		\end{align}	
-	\end{multline}
+	\end{multline*}
 	
 	\noindent В итоге получаем матрицу:
 	\begin{bmatrix}
@@ -778,4 +808,156 @@
 	\equiv (\overline{A} + \overline{B}) 
 	\equiv (\overline{A} + \overline{B} + \overline{C})
 	\end{equation}
+	
+	\section{Минимальное количество операций}
+	
+	\section{Минимальное количество блоков в каждом базисе}
+	
+	\subsection{Базис 01}
+	Получим представление F в базисе $\{\circ\}$ с минимальным количеством блоков, преобразовав одну из МКНФ, полученных до этого.
+	\begin{multline*}
+		\noindent
+		(A + \overline{B}) \cdot (\overline{A} + C) \cdot (\overline{A} + B) = 
+		(A + \overline{B}) \cdot (\overline{A} + B) \cdot (\overline{A} + C) = 
+		\overline{\overline{A} \cdot B} \cdot {\overline{A \cdot \overline{B}}} 
+		\cdot (\overline{A} + C) = 
+		\overline{\overline{A} \cdot B + A \cdot \overline{B}} 
+		\cdot \overline{A \cdot \overline{C}} = \\
+		(\overline{A} \cdot B + A \cdot \overline{B}) \circ (A \cdot \overline{C}) =
+		((\overline{A} + \overline{B}) \cdot (A + B)) \circ (\overline{A} \circ C) =
+		(\overline{A \cdot B} \cdot \overline{\overline{A} \cdot \overline{B}})
+		\circ ((A \circ A) \circ C) = \\
+		((A \cdot B) \circ (\overline{A} \circ \overline{B}) 
+		\circ ((A \circ A) \circ C) =
+		((\overline{A} \circ \overline{B}) 
+		\circ (A \circ B)) \circ ((A \circ A) \circ C) = \\
+		(((A \circ A) \circ (B \circ B)) \circ (A \circ B)) 
+		\circ ((A \circ A) \circ C) 
+	\end{multline*}
+
+	
+	\subsection{Базис 02}
+	Получим представление F в базисе $\{|\}$ с минимальным количеством блоков, преобразовав МДНФ, полученных до этого.
+	
+	\begin{multline*}
+	\overline{A} \cdot \overline{B} + A \cdot B \cdot C = 
+	\overline{A + B} + A \cdot B \cdot C =
+	\overline{(A + B) \cdot \overline{A \cdot B \cdot C}} = 
+	\overline{\overline{\overline{A} \cdot \overline{B}}
+	\cdot \overline{A \cdot B \cdot C}} = \\ 
+	\overline{\overline{(A \cdot C + \overline{B}) \cdot \overline{A}}
+	\cdot \overline{(A \cdot C + \overline{B}) \cdot B}} = 
+	\overline{\overline{\overline{\overline{A \cdot C} \cdot B} \cdot \overline{A}}
+	\cdot \overline{\overline{\overline{A \cdot C} \cdot B} \cdot B}} = 
+	\overline{\overline{\overline{A \cdot C} \cdot B} \cdot \overline{A}}
+	| \overline{\overline{\overline{A \cdot C} \cdot B} \cdot B} = \\
+	\overline{\overline{\overline{A \cdot C} | B} \cdot \overline{A}} 
+	| \overline{\overline{\overline{A \cdot C} | B} \cdot B} =
+	\overline{((A | C) | B) \cdot \overline{A}} | 
+	\overline{((A | C) | B) \cdot B} = 
+	((A | C) | B) | (A | A) | 
+	(((A | C) | B) | B)
+	\end{multline*}
+	
+	\subsection{Базис 03}
+	Получим представление F в базисе $\{0, \implies\}$ с минимальным количеством блоков, преобразовав МДНФ, полученную до этого.
+	
+	\begin{multline*}
+		\overline{A} \cdot \overline{B} + A \cdot B \cdot C = 
+		A \cdot B \cdot C + (A + \overline{B}) \cdot \overline{A} = 
+		\overline{\overline{A} + \overline{B} + \overline{C}} +
+		\overline{\overline{A} \cdot B} \cdot \overline{A} = 
+		(\overline{A} + \overline{B} + \overline{C}) \implies 
+		\overline{\overline{A} \cdot B + A} = \\
+		(C \implies (\overline{A} + \overline{B})) \implies
+		((\overline{A} \cdot B + A) \implies 0) =
+		(C \implies (\overline{A} + \overline{B})) \implies
+		((\overline{\overline{B} + A} + A) \implies 0) = \\
+		(C \implies (\overline{A} + \overline{B})) \implies
+		(((\overline{B} + A) \implies A) \implies 0) = \\
+		(C \implies (B \implies (A \implies 0))) \implies
+		(((B \implies A) \implies A) \implies 0)
+	\end{multline*}
+	\subsection{Базис 04}
+	Получим представление F в базисе $\{1, \centernot\implies\}$ с минимальным количеством блоков, преобразовав одну из МКНФ, полученых до этого.
+	
+	\begin{multline*}
+		(\overline{A} + B) \cdot (A + \overline{B}) \cdot (\overline{B} + C) = 
+		(\overline{A} + B) \cdot \overline{B \cdot \overline{C}} 
+		\cdot \overline{\overline{A} \cdot B} =
+		\overline{\overline{\overline{A} + B} + B \cdot \overline{C} 
+		+ \overline{A} \cdot B} = \\
+		(\overline{A} + B) \centernot\implies 
+		B \cdot (\overline{C} + \overline{A} \cdot B) = 
+		\overline{\overline{1} + A \cdot \overline{B}} \centernot\implies
+		\overline{\overline{B} + \overline{\overline{C} + \overline{A} \cdot B}} = \\
+		\overline{\overline{1} + A \cdot \overline{B}} \centernot\implies
+		(B \centernot\implies \overline{\overline{C} + \overline{A} \cdot B}) = 
+		(1 \centernot\implies A \cdot \overline{B}) \centernot\implies 
+		(B \centernot\implies (C \centernot\implies \overline{A} \cdot B)) = \\
+		(1 \centernot\implies \overline{\overline{A} + B}) \centernot\implies 
+		(B \centernot\implies (C \centernot\implies \overline{A + \overline{B}})) =
+		(1 \centernot\implies (A \centernot\implies B)) \centernot\implies
+		(B \centernot\implies (C \centernot\implies (B \centernot\implies A)))
+	\end{multline*}
+	
+	\subsection{Базис 05}
+	Получим представление F в базисе $\{0, \implies\}$ с минимальным количеством блоков, преобразовав одну из МКНФ, полученных до этого.
+	
+	\begin{multline*}
+	(\overline{A} + C) \cdot (\overline{A} + B) \cdot (A + \overline{B}) = 
+	\overline{\overline{\overline{A} + C} + A \cdot \overline{B} + \overline{A} \cdot B} =
+	(\overline{A} + C) \centernot\implies
+	(A \cdot \overline{B} + \overline{A} \cdot B) = \\
+	(A \implies C) \centernot\implies 
+	(\overline{\overline{A} + B} + \overline{A} \cdot B) = 
+	(A \implies C) \centernot\implies 
+	((\overline{A} + B) \implies \overline{A} \cdot B) = \\
+	(A \implies C) \centernot\implies 
+	((A \implies B) \implies \overline{A + \overline{B}}) = 
+	(A \implies C) \centernot\implies 
+	((A \implies B) \implies (B \centernot\implies A))
+	\end{multline*}
+	
+	\subsection{Базис 06}
+	\begin{multline*}
+	\overline{A} \cdot \overline{B} + A \cdot B \cdot C = 
+	(\overline{A} + \overline{B} + C) 
+	\cdot (\overline{A} \cdot \overline{B} + A \cdot B) =
+	(\overline{A} + \overline{B} + C) 
+	\cdot (\overline{A} + B
+	)
+	\end{multline*}
+	
+	\subsection{Базис 07}
+	
+	\subsection{Базис 08}
+	
+	\subsection{Базис 09}
+	
+	\subsection{Базис 10}
+	
+	\begin{equation}
+		A \cdot B \cdot C + \overline{A} \cdot \overline{B} =
+		\overline{\overline{A} + \overline{B} + \overline{C}} + \overline{A + B}
+	\end{equation}
+	
+	\subsection{Базис 11}
+	
+	\begin{equation}
+		A \cdot B \cdot C + \overline{A} \cdot \overline{B} = 
+		(A \cdot C + \overline{B}) \cdot (\overline{A} + B)
+	\end{equation}
+	
+	\subsection{Базис 12}
+	
+	\subsection{Базис 13}
+	
+	\subsection{Базис 14}
+	
+	\subsection{Базис 15}
+	
+	\subsection{Базис 16}
+	
+	\subsection{Базис 17}
 \end{document}
